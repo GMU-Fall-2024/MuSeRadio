@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Reset all nav default styles */
+nav, 
+nav ul li, 
+nav hr
+{
+    all: unset;
+} 
+
+/* Navigation styling */
+nav
+{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    margin-top: 2.5vh;
+    min-width: 70px;
+    width: 5%;
+    max-width: 270px;
+    /* Background */
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    color: white;
+    position: relative;
+    outline: solid 1px rgb(170, 176, 177);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* Content positioning */
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+
+nav label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: minmax(7px, 1.5em);
+    text-transform: capitalize;
+}
+
+/* Company logo */
+span[id = "brand"]
+{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    outline: solid 2px rgba(11, 16, 16, 0.214);
+    outline-offset: 30px;
+    filter: box-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+
+span[id = "brand"] button
+{
+    all: unset;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span[id = "brand"] button img
+{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+span[id = "brand"] button .logo_text
+{
+    text-align: center;
+    font-family: 'montserrat';
+    padding-left: 12px;
+    color: rgb(147, 155, 165);
+}    
+
+/* Group 1 */
+span[id = "primary_group"]
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 55%;
+    /* background-color: aqua; */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+span[id = "primary_group"] ul
+{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+span[id = "primary_group"] ul li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18%;
+    max-height: 70px;
+    /* background-color: blue; */
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 70%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+
+span[id = "primary_group"] ul li button,
+span[id = "primary_group"] ul li a
+{
+    all: unset;
+    display: flex;
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Group 2 */
+span[id = "secondary_group"]
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: self-end;
+    /* background-color: aqua; */
+    align-self: self-end;
+    justify-self: self-end;
+    align-self: self-end;
+}
+
+span[id = "secondary_group"] ul
+{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+span[id = "secondary_group"] ul li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45%;
+    max-height: 70px;
+    /* background-color: blue; */
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 70%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+
+span[id = "secondary_group"] ul li button,
+span[id = "secondary_group"] ul li a
+{
+    all: unset;
+    display: flex;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
