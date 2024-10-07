@@ -1,0 +1,132 @@
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    height: 100%;
+    place-items: center;
+    gap: 0px;
+    padding-left: 20px;
+}
+
+main div
+{
+    outline: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 97%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main div[id = "left_container"] .welcome_text
+{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+}
+
+main div[id = "left_container"] .profile
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* background-color: red; */
+    height: 120%;
+}
+
+main div[id = "left_container"] .profile .avatar
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 70px;
+    aspect-ratio: 1 / 1;
+    /* background-color: blue; */
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+main div[id = "left_container"] .profile .avatar .profile_image
+{
+    display: flex;
+    width: 90%;
+    border-radius: 15px;
+    background-color: gray;
+    overflow: hidden;
+    outline: solid 1px rgb(0, 0, 0);
+    outline-offset: 3px;;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+}
+
+main div[id = "left_container"] .profile .avatar .profile_image img
+{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+main div[id = "left_container"] .profile .avatar .status
+{
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    outline: solid 1px rgb(0, 0, 0);
+    outline-offset: 3px;
+    border-radius: 5px;
+    width: 80%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+main div[id = "left_container"] .profile .summary
+{
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    outline: solid 1px rgb(0, 0, 0);
+    outline-offset: 3px;
+    border-radius: 15px;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section two left */
+main div section:nth-child(2)
+{
+    display: flex;
+    width: 82.5%;
+    height: 27%;
+    outline: solid 1px rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 8%;
+}
+
+/* section three left */
+main div section:nth-child(3)
+{
+    display: flex;
+    width: 82.5%;
+    height: 47%;
+    outline: solid 1px rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-top: 10px;
+}
