@@ -101,13 +101,18 @@ main div[id = "left_container"] .profile .summary
     color: black;
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
-    outline: solid 1px rgb(0, 0, 0);
+    /* outline: solid 1px rgb(0, 0, 0); */
     outline-offset: 3px;
     border-radius: 15px;
     width: 70%;
     height: 80%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
 }
 
 main div[id = "left_container"] .profile .summary .dj_info
@@ -119,31 +124,120 @@ main div[id = "left_container"] .profile .summary .dj_info
     justify-content: space-between;
 }
 
+main div[id = "left_container"] .profile .summary .dj_info .dj_name
+{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+}
+
 main div[id = "left_container"] .profile .summary .other_info
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 95%;
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
 }
 
+main div[id = "left_container"] .profile .summary .other_info .dj_stat
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    /* outline: solid 1px rgb(0, 0, 0); */
+    outline-offset: 3px;
+}
 /* section two left */
-main div section:nth-child(2)
+main div[id = "left_container"] section:nth-child(2)
 {
     display: flex;
     width: 82.5%;
     height: 27%;
-    outline: solid 1px rgb(0, 0, 0);
+    /* outline: solid 1px rgb(0, 0, 0); */
     border-radius: 15px;
     margin-top: 8%;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
 }
 
 /* section three left */
-main div section:nth-child(3)
+
+main div[id = "left_container"] section:nth-child(3)
 {
     display: flex;
     width: 82.5%;
     height: 47%;
-    outline: solid 1px rgb(0, 0, 0);
+    /* outline: solid 1px rgb(0, 0, 0); */
     border-radius: 15px;
     margin-top: 10px;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
 }
 
+
+/* RIGHT */
+main div[id = "right_container"]
+{
+    all: unset;
+    /* outline: solid 1px rgb(0, 0, 0); */
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 97%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+main div[id = "right_container"] section:nth-child(1)
+{
+    display: flex;
+    width: 82.5%;
+    height: 50.5%;
+    /* outline: solid 1px rgb(0, 0, 0); */
+    border-radius: 15px;
+    margin-top: 4.5%;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+
+main div[id = "right_container"] section:nth-child(2)
+{
+    display: flex;
+    width: 82.5%;
+    height: 20%;
+    /* outline: solid 1px rgb(0, 0, 0); */
+    border-radius: 15px;
+    margin-top: 4.5%;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+
+main div[id = "right_container"] section:nth-child(3)
+{
+    display: flex;
+    width: 82.5%;
+    height: 20%;
+    /* outline: solid 1px rgb(0, 0, 0); */
+    border-radius: 15px;
+    margin-top: 4.5%;
+    /* background */
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
