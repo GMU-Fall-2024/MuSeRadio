@@ -9,4 +9,8 @@ footer
     padding-top: 10px;
     gap: 10px;
     align-self: flex-end;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
 }

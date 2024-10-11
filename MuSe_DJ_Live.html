@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/live/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
     <script src="https://kit.fontawesome.com/8c9fcb09a3.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -88,5 +90,486 @@
          </ul>
       </span>
    </nav>
+
+   <main>
+      <div id="row_1">
+         <!-- Event name and dj stuff -->
+          <section id="profile_info">
+            <span class="welcome_text">you are going live be a hit!</span>
+            <span class="profile">
+               <span class="avatar">
+                  <span class="profile_image"><img src="./assets/images/avatars/MollyRocks.jpg" alt=""></span>
+                  <span class="status">status</span>
+               </span>
+
+               <span class="summary">
+                  <span class="event_info">
+                     <span class = "event_name">event name</span>
+                     <span>Action</span>
+                  </span>
+                  <span class="event_description">
+                     <span class="description">some description goes here it would just provide a short description of the event</span>
+                  </span>
+                  
+                  <!-- initial stats -->
+                  <span class="stats">
+                     <span class="stat">
+                        <span class="value">00</span>
+                        <span class="text">
+                           <i class="fa-solid fa-user-group"></i>
+                           <span>subscribers</span>
+                        </span>
+                     </span>
+
+                     <span class="stat">
+                        <span class="value">00</span>
+                        <span class="text">
+                           <i class="fa-solid fa-heart"></i>
+                           <span>likes</span>
+                        </span>
+                     </span>
+
+                     <span class="stat">
+                        <span class="value">00</span>
+                        <span class="text">
+                           <i class="fa-solid fa-headphones-simple"></i>
+                           <span>listeners</span>
+                        </span>
+                     </span>
+                  </span>
+
+                  <span class="production_info">
+                     <span class="role">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <span>produced by</span>
+                     </span>
+                     <span class = "producer_profile">
+                        <span class="producer_avatar"><img src="./assets/images/avatars/Tim.jpg" alt=""></span>
+                        <span class="producer">producer name</span>
+                     </span>
+                  </span>
+               </span>
+            </span>
+          </section>
+      </div>
+      <div id="row_2">
+         <!-- music controls and more -->
+          <section id = "deck_1">
+            <span class="music_info">
+               <span class="music_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+               <span class="music_data">
+                  <span class="song_title">song title</span>
+                  <span class="song_artist">song artist</span>
+                  <span class="song_description">song description</span>
+                  <span class="song_additional_info">
+                     <span class="runtime">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        <span>00:00</span>
+                     </span>
+                     <span class="release_year">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>2002</span>
+                     </span>
+                     <span class="album">
+                        <i class="fa-solid fa-record-vinyl"></i> 
+                        <span>album name</span>
+                     </span>
+                  </span>
+               </span>
+            </span>
+            <span class="play_progress">
+               <span>0:00</span>
+               <input type="range" name="" id="" value="0">
+               <span>99:99</span>
+            </span>
+            <span class="dj_controls">
+               <span class="playback_controls">
+                  <span class = "control_group">
+                     <button><i class="fa-solid fa-backward-step"></i></button>
+                  </span>
+                  <span class="control_group">
+                     <button id = "play"><i class="fa-solid fa-play"></i></button>
+                  </span>
+                  <span class="control_group">
+                     <button><i class="fa-solid fa-pause"></i></button>
+                  </span>
+                  <span>
+                     <button><i class="fa-solid fa-forward-step"></i></button>
+                  </span>
+               </span>
+               <span class="volume_controls">
+                  <span class = "control_group">
+                     <span class="control">
+                        <i class="fa-solid fa-volume-low"></i>
+                        <input type="range" name="" id="" value="0">
+                        <i class="fa-solid fa-volume-high"></i>
+                     </span>
+                     <span class="ranges">
+                        <span>0.0</span>
+                        <span>10.0</span>
+                     </span>
+                     
+                  </span>
+               </span>
+            </span>
+          </section>
+          <section id="effects">
+            <span class="effects_container">
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-drum"></i>
+                  </button>
+               </span>
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-drum-steelpan"></i>
+                  </button>
+               </span>
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-guitar"></i>
+                  </button>
+               </span>
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-hands-clapping"></i>
+                  </button>
+               </span>
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-bomb"></i>
+                  </button>
+               </span>
+               <span class="effect">
+                  <button>
+                     <i class="fa-solid fa-microphone"></i>
+                  </button>
+               </span>
+            </span>
+            <span class="fader">
+               <span><i class="fa-solid fa-caret-left"></i></span>
+               <input type="range" name="" id="" value="50">
+               <span><i class="fa-solid fa-caret-right"></i></span>
+            </span>
+          </section>
+          <section id = "deck_2">
+            <span class="music_info">
+               <span class="music_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+               <span class="music_data">
+                  <span class="song_title">song title</span>
+                  <span class="song_artist">song artist</span>
+                  <span class="song_description">song description</span>
+                  <span class="song_additional_info">
+                     <span class="runtime">
+                        <i class="fa-solid fa-stopwatch"></i> 
+                        <span>00:00</span>
+                     </span>
+                     <span class="release_year">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>2002</span>
+                     </span>
+                     <span class="album">
+                        <i class="fa-solid fa-record-vinyl"></i> 
+                        <span>album name</span>
+                     </span>
+                  </span>
+               </span>
+            </span>
+            <span class="play_progress">
+               <span>0:00</span>
+               <input type="range" name="" id="" value="0">
+               <span>99:99</span>
+            </span>
+            <span class="dj_controls">
+               <span class="playback_controls">
+                  <span class = "control_group">
+                     <button><i class="fa-solid fa-backward-step"></i></button>
+                  </span>
+                  <span class="control_group">
+                     <button id = "play"><i class="fa-solid fa-play"></i></button>
+                  </span>
+                  <span class="control_group">
+                     <button><i class="fa-solid fa-pause"></i></button>
+                  </span>
+                  <span>
+                     <button><i class="fa-solid fa-forward-step"></i></button>
+                  </span>
+               </span>
+               <span class="volume_controls">
+                  <span class = "control_group">
+                     <span class="control">
+                        <i class="fa-solid fa-volume-low"></i>
+                        <input type="range" name="" id="" value="0">
+                        <i class="fa-solid fa-volume-high"></i>
+                     </span>
+                     <span class="ranges">
+                        <span>0.0</span>
+                        <span>10.0</span>
+                     </span>
+                     
+                  </span>
+               </span>
+            </span>
+          </section>
+      </div>
+      <div id="row_3">
+         <span class="left">
+            <span class="header">
+               <span class = "control_group">
+                  <input type="radio" name="" id="toggle_alerts">
+                  <label for="toggle_alerts"><i class="fa-solid fa-music"></i> playlist</label>
+               </span>
+            </span>
+            <span class="playlist_info">
+               <span class="playlist_title">playlist title</span>
+               <span class="playlist_creator">
+                  <span class="creator_avatar"><img src="./assets/images/avatars/Tim.jpg" alt=""></span>
+                  <span class="creator_name">creator name</span>
+               </span>
+            </span>
+            <span class="songs_container">
+               <span class="song">
+                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+                  <span class="song_info">
+                     <span class="song_title">song title</span>
+                     <span class="song_artist">song artist</span>
+                     <span class="song_details">
+                        <span class="runtime">
+                           <i class="fa-solid fa-stopwatch"></i>
+                           <span>00:00</span>
+                        </span>
+                        <span class="release_year">
+                           <i class="fa-regular fa-calendar"></i>
+                           <span>2002</span>
+                        </span>
+                        <span class="album">
+                           <i class="fa-solid fa-record-vinyl"></i>
+                           <span>album name</span>
+                        </span>
+                     </span>
+                  </span>
+                  <span class="song_controls">
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-1"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-headphones-simple"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-2"></i></button>
+                     </span>
+                  </span>
+               </span>
+               <span class="song">
+                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+                  <span class="song_info">
+                     <span class="song_title">song title</span>
+                     <span class="song_artist">song artist</span>
+                     <span class="song_details">
+                        <span class="runtime">
+                           <i class="fa-solid fa-stopwatch"></i>
+                           <span>00:00</span>
+                        </span>
+                        <span class="release_year">
+                           <i class="fa-regular fa-calendar"></i>
+                           <span>2002</span>
+                        </span>
+                        <span class="album">
+                           <i class="fa-solid fa-record-vinyl"></i>
+                           <span>album name</span>
+                        </span>
+                     </span>
+                  </span>
+                  <span class="song_controls">
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-1"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-headphones-simple"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-2"></i></button>
+                     </span>
+                  </span>
+               </span>
+               <span class="song">
+                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+                  <span class="song_info">
+                     <span class="song_title">song title</span>
+                     <span class="song_artist">song artist</span>
+                     <span class="song_details">
+                        <span class="runtime">
+                           <i class="fa-solid fa-stopwatch"></i>
+                           <span>00:00</span>
+                        </span>
+                        <span class="release_year">
+                           <i class="fa-regular fa-calendar"></i>
+                           <span>2002</span>
+                        </span>
+                        <span class="album">
+                           <i class="fa-solid fa-record-vinyl"></i>
+                           <span>album name</span>
+                        </span>
+                     </span>
+                  </span>
+                  <span class="song_controls">
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-1"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-headphones-simple"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-2"></i></button>
+                     </span>
+                  </span>
+               </span>
+               <span class="song">
+                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+                  <span class="song_info">
+                     <span class="song_title">song title</span>
+                     <span class="song_artist">song artist</span>
+                     <span class="song_details">
+                        <span class="runtime">
+                           <i class="fa-solid fa-stopwatch"></i>
+                           <span>00:00</span>
+                        </span>
+                        <span class="release_year">
+                           <i class="fa-regular fa-calendar"></i>
+                           <span>2002</span>
+                        </span>
+                        <span class="album">
+                           <i class="fa-solid fa-record-vinyl"></i>
+                           <span>album name</span>
+                        </span>
+                     </span>
+                  </span>
+                  <span class="song_controls">
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-1"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-headphones-simple"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-2"></i></button>
+                     </span>
+                  </span>
+               </span>
+               <span class="song">
+                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+                  <span class="song_info">
+                     <span class="song_title">song title</span>
+                     <span class="song_artist">song artist</span>
+                     <span class="song_details">
+                        <span class="runtime">
+                           <i class="fa-solid fa-stopwatch"></i>
+                           <span>00:00</span>
+                        </span>
+                        <span class="release_year">
+                           <i class="fa-regular fa-calendar"></i>
+                           <span>2002</span>
+                        </span>
+                        <span class="album">
+                           <i class="fa-solid fa-record-vinyl"></i>
+                           <span>album name</span>
+                        </span>
+                     </span>
+                  </span>
+                  <span class="song_controls">
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-1"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-headphones-simple"></i></button>
+                     </span>
+                     <span class="control_group">
+                        <button><i class="fa-solid fa-2"></i></button>
+                     </span>
+                  </span>
+               </span>
+            </span>
+         </span>
+         <span class="right">
+            <span class="metrics">
+               <span class="header">
+                  <span>last broadcast metrics</span>
+                  <i class="fa-solid fa-chart-simple"></i>
+               </span>
+               <span class="metrics_container">
+                  <span class="metric">
+                     <!-- listeners -->
+                      <span class="number">
+                        <i class="fa-solid fa-headphones-simple"></i>
+                        <span class="value">00</span>
+                      </span>
+                      <span class="metric_name">
+                        <span>listeners</span>
+                      </span>
+                      <span class="metric_change">+0.00%</span>
+                  </span>
+                  <span class="metric">
+                     <!-- stream time -->
+                     <span class="number">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <span class="value">00 <sup>.00</sup></span>
+                      </span>
+                      <span class="metric_name">
+                        <span>minutes</span>
+                      </span>
+                      <span class="metric_change" style="text-align: center; justify-content: center;">+0.00%</span>
+                  </span>
+                  <span class="metric">
+                     <!-- likes -->
+                     <span class="number">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="value">00</span>
+                      </span>
+                      <span class="metric_name" style="text-align: right; justify-content: right; width: 100%;">
+                        <span style="text-align: right; justify-content: right;">likes</span>
+                      </span>
+                      <span class="metric_change" style="text-align: right; justify-content: right;">+0.00%</span>
+                  </span>                
+               </span>
+            </span>
+
+            <span class="contacts">
+               <span class="header">
+                  <span>pinned contacts</span>
+                  <i class="fa-solid fa-address-book"></i>
+               </span>
+               <span class="contacts_container">
+                  <span class="contact">
+                     <span class="avatar"><img src="./assets/images/avatars/Tim.jpg" alt=""></span>
+                     <span class="info">
+                        <span class="name">Tim Jones</span>
+                        <span class="role">producer</span>
+                        <span class="notification">1 new notification</span>
+                     </span>
+                  </span>
+                  <span class="contact">
+                     <span class="avatar"><img src="./assets/images/avatars/Melody.jpg" alt=""></span>
+                     <span class="info">
+                        <span class="name">Melody Blinks</span>
+                        <span class="role">manager</span>
+                        <span class="notification">3 new notifications</span>
+                     </span>
+                  </span>
+                  <span class="contact">
+                     <span class="avatar"><img src="./assets/images/avatars/Melody.jpg" alt=""></span>
+                     <span class="info">
+                        <span class="name">Melody Blinks</span>
+                        <span class="role">manager</span>
+                        <span class="notification">3 new notifications</span>
+                     </span>
+                  </span>
+               </span>
+            </span>
+         </span>
+      </div>
+   </main>
+   <footer>
+      We are MuSe&reg; Radio
+   </footer>
  </body>
  </html>
