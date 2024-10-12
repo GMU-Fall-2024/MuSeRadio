@@ -1,0 +1,99 @@
+<!-- Live stream page for a DJ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="./css/navigation.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/header.css">
+   <link rel="stylesheet" href="./css/live/main.css">
+   <link rel="stylesheet" href="./css/footer.css">
+
+   <script src="https://kit.fontawesome.com/8c9fcb09a3.js" crossorigin="anonymous"></script>
+   <title>Document</title>
+</head>
+<body>
+  <header>
+     <span>
+        <button id = "system_settings">
+           <i class="fa-solid fa-gears"></i>
+        </button>
+        <label for="system_settings">settings</label>
+     </span>
+     <span>
+        <button id = "system_help" onclick="window.location.href = './MuSe_Help.html';">
+           <i class="fa-solid fa-person-circle-question"></i>
+        </button>
+        <label for="system_help">help</label>
+     </span>
+  </header>
+  <nav>
+     <!-- company logo -->
+     <span class="nav_group" id = "brand">
+        <button onclick="window.location.href = './index.html';">
+           <img src="./assets/brand/SVG/MuSe.svg" alt="">
+           <span class="logo_text">MuSe<sup>®</sup></span>
+        </button>
+     </span>
+     <hr class = "nav_separator">
+     <span class="nav_group" id = "primary_group">
+        <ul class="group_list">
+           <li class="group_item">
+              <button id = "home" onclick="window.location.href = './MuSe_DJ_Home.html';">
+                 <i class="fa-solid fa-house"></i>
+              </button>
+           </li>
+           <label for="home">home</label>
+           <li class="group_item">
+              <button id = "schedule" onclick="window.location.href = './MuSe_DJ_Schedule.html';">
+                 <i class="fa-solid fa-calendar-week"></i>
+              </button>
+           </li>
+           <label for="schedule">schedule</label>
+           <li class="group_item">
+              <button id = "live" onclick="window.location.href = './MuSe_DJ_Live.html';">
+                 <i class="fa-solid fa-tower-broadcast"></i>
+              </button>
+           </li>
+           <label for="live">live</label>
+           <li class="group_item">
+              <button id = "messaging" onclick="window.location.href = './MuSe_DJ_Messaging.html';">
+                 <i class="fa-solid fa-envelope-open-text"></i>
+              </button>
+           </li>
+           <label for="messaging">messaging</label>
+           <li class="group_item">
+              <button id = "metrics" onclick="window.location.href = './MuSe_DJ_Metrics.html';">
+                 <i class="fa-solid fa-chart-simple"></i>
+              </button>
+           </li>
+           <label for="metrics">metrics</label>
+        </ul>
+     </span>
+     <hr class = "nav_separator">
+     <span class="nav_group" id = "secondary_group">
+        <ul class="group_list">
+           <li class="group_item">
+              <button id = "profile">
+                 <i class="fa-solid fa-user"></i>
+              </button>
+           </li>
+           <label for="profile">profile</label>
+           <li class="group_item">
+              <button id = "exit" onclick="window.location.href = './MuSe.html';"> 
+                 <i class="fa-solid fa-right-from-bracket"></i>
+              </button>
+           </li>
+           <label for="exit">exit</label>
+        </ul>
+     </span>
+  </nav>
+
+  
+  <footer>
+     We are MuSe&reg; Radio
+  </footer>
+</body>
+</html>
