@@ -8,11 +8,20 @@
    <link rel="stylesheet" href="./css/navigation.css">
    <link rel="stylesheet" href="./css/style.css">
    <link rel="stylesheet" href="./css/header.css">
-   <link rel="stylesheet" href="./css/live/main.css">
    <link rel="stylesheet" href="./css/footer.css">
-
+   <!-- Page Specific Styles -->
+   <link rel="stylesheet" href="./css/help/main.css">
+   <link rel="stylesheet" href="./css/help/help_form.css">
    <script src="https://kit.fontawesome.com/8c9fcb09a3.js" crossorigin="anonymous"></script>
-   <title>Document</title>
+   <title>MuSe Radio | Help</title>
+
+   <datalist id="suggested_topics">
+	  <option value="Scheduling conflicts">Scheduling conflicts</option>
+	  <option value="Live stream not working">Live stream not working</option>
+	  <option value="Page not loading">Page not loading</option>
+	  <option value="Messages not sending">Messages not sending</option>
+	  <option value="Other">Other</option>
+	</datalist>
 </head>
 <body>
   <header>
@@ -91,6 +100,66 @@
      </span>
   </nav>
 
+  <main>
+	 <div id="help_container">
+		<span class="header">
+			<h1>Help</h1>
+			<hr>
+			<p>Technical issues? Send us a message with as much detail as possible</p>
+		</span>
+		<form action="" method="post">
+			<fieldset>
+				<!-- basic info -->
+				 <span class="input_group" id = "name_group">
+					<input type="text" name="name" id="name" placeholder="name" required>
+					<label for="name">name</label>
+				 </span>
+				 <span class="input_group">
+					<input type="email" name="email" id="email" placeholder="email">
+					<label for="email">email</label>
+				 </span>
+				 <span class="input_group">
+					<input type="text" name="phone" id="phone" placeholder="phone">
+					<label for="phone">phone</label>
+				 </span>
+			</fieldset>
+
+			<fieldset>
+				<!-- subject info -->
+				 <span class="input_group">
+					<input type="text" name="subject" id="subject" placeholder="subject" list="suggested_topics">
+					<label for="subject">subject</label>
+				 </span>
+
+				 <!-- <span class="input_group">
+					<input type="date" name="date" id="date">
+					<label for="date">date</label>
+				 </span> -->
+			</fieldset>
+
+			<fieldset id = "message_fieldset">
+				<!-- message info -->
+				 <span class="input_group">
+					<textarea name="message" id="message" placeholder="message"></textarea>
+					<label for="message">message</label>
+				 </span>
+
+				 <span class="input_group">
+					 <input type="file" name="file" id="help_attachment">
+					 <span class="preview">
+						 <img src="./assets/images/placeholders/image_placeholder.webp" alt="">
+					 </span>
+					<label for="help_attachment">attachment</label>
+				 </span>
+			</fieldset>
+
+			<fieldset id = "controls">
+				<button type="submit">send</button>
+				<button type="reset">clear</button>
+			</fieldset>
+		</form>
+	 </div>
+  </main>
   
   <footer>
      We are MuSe&reg; Radio

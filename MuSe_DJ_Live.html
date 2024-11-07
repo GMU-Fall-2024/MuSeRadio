@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./css/footer.css">
 
     <script src="https://kit.fontawesome.com/8c9fcb09a3.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <script src="./js/live/play_effects.js"></script>
+    <title>Live Session | MuSe Radio</title>
  </head>
  <body>
    <header>
@@ -216,7 +217,7 @@
           <section id="effects">
             <span class="effects_container">
                <span class="effect">
-                  <button>
+                  <button id = "drums_effect_button">
                      <i class="fa-solid fa-drum"></i>
                   </button>
                </span>
@@ -226,12 +227,12 @@
                   </button>
                </span>
                <span class="effect">
-                  <button>
+                  <button id = "guitar_effect_button">
                      <i class="fa-solid fa-guitar"></i>
                   </button>
                </span>
                <span class="effect">
-                  <button>
+                  <button id = "applause_effect_button">
                      <i class="fa-solid fa-hands-clapping"></i>
                   </button>
                </span>
@@ -571,5 +572,13 @@
    <footer>
       We are MuSe&reg; Radio
    </footer>
+
+   <span id="sound_effects">
+      <audio src="./assets/audio/effects/applause.mp3" id="applause_effect" class = "sound_effect"></audio>
+      <audio src="./assets/audio/effects/dj_line.mp3" id="djline_effect" class = "sound_effect"></audio>
+      <audio src="./assets/audio/effects/drums.mp3" id="drums_effect" class = "sound_effect"></audio>
+      <audio src="./assets/audio/effects/explosion.mp3" id="explosion_effect" class = "sound_effect"></audio>
+      <audio src="./assets/audio/effects/guitar.mp3" id="guitar_effect" class = "sound_effect"></audio>
+    </span>
  </body>
  </html>
