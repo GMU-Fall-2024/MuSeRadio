@@ -2,7 +2,8 @@ window.onload = function() {
     const drum_button = document.getElementById("drums_effect_button");
     const guitar_button = document.getElementById("guitar_effect_button");
     const applause_button = document.getElementById("applause_effect_button");
-    const 
+    const explosion_button = document.getElementById("explosion_effect_button");
+    const djline_button = document.getElementById("djline_effect_button");
 
     // Event Listener Approach
     drum_button.addEventListener("click", () => {
@@ -17,6 +18,16 @@ window.onload = function() {
 
     applause_button.addEventListener("click", () => {
         let audio = document.getElementById("applause_effect");
+        audio.play();
+    });
+
+    explosion_button.addEventListener("click", () => {
+        let audio = document.getElementById("explosion_effect");
+        audio.play();
+    });
+
+    djline_button.addEventListener("click", () => {
+        let audio = document.getElementById("djline_effect");
         audio.play();
     });
 }
