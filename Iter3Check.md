@@ -20,28 +20,43 @@
 
 ## Manipulate Style (30 pts)
 - [ ] **Modifying a DOM Element** (10 pts)
-  - [ ] Select and modify DOM elements (e.g., change text, attributes, add/remove elements) <br>
-  `Change of color and background in effects panel`
+  - [x] Select and modify DOM elements (e.g., change text, attributes, add/remove elements) <br>
+  `Change of color and background in effects panel`<br>
+  `Removal of alerts in home screen utilizes DOM element selection`<br>
+  `Javascript to generate DOM content such as the alerts and schedule content`<br>
 
 - [ ] **Properties** (10 pts)
-  - [ ] Create custom objects and access/modify their properties
+  - [x] Create custom objects and access/modify their properties
+  `Custom objects defined and instantiated in ./data directory`<br>
+  `Accessed in home page for markup generation`<br>
+  `./data/AlertInstance.js objects for alerts nd notifications`<br>
+  `./data/EventInstance.js objects for events being hosted`<br>
+  `./data/ProfileTypes.js objects for system wide profiles`<br>
+  `Accessed in live session page`<br>
+  `./data/SongInstances.js objects for songs in playlist`
 
 - [ ] **Window Object** (10 pts)
-  - [ ] Use `window` or `document` object methods/properties (e.g., `alert`, `setTimeout`, `DOMContentLoaded`)
+  - [x] Use `window` or `document` object methods/properties (e.g., `alert`, `setTimeout`, `DOMContentLoaded`)
+  `window.onload() used to setup home page in ./js/home/home_setup.js`<br>
+  `setTimeout() used in live page to change style of effects buttons when the audio is done playing`
 
 ## Implement Advanced Concepts (20 pts)
-- [ ] **Prototypes/Classes** (10 pts)
-  - [ ] Demonstrate reusability and object-oriented programming with prototypes/classes
+- [x] **Prototypes/Classes** (10 pts)
+  - [x] Demonstrate reusability and object-oriented programming with prototypes/classes
+  `Numerous classes defined in ./data directory`
 
 - [ ] **Modules** (10 pts)
-  - [ ] Organize code into modules or separate files for better readability and reuse
+  - [x] Organize code into modules or separate files for better readability and reuse
+  `Modules created in ./data and ./js for readability, reuse and organization`
+  `Most custom data types and classes are in ./data. ./sj contains scripts for html rendering and more`
 
 ## JavaScript Fundamentals (10 pts)
 - [ ] **Variables** (2 pts)
   - [ ] Show understanding of data types and scope
 
-- [ ] **Comparison Operators** (2 pts)
-  - [ ] Use operators like `==`, `!=`, `>`
+- [x] **Comparison Operators** (2 pts)
+  - [x] Use operators like `==`, `!=`, `>`
+  `!== operator used in ./js/home/alert_management.js to remove DOM element`
 
 - [ ] **Logical Operators** (2 pts)
   - [ ] Use logical operators: `&&`, `||`, `!`
@@ -49,19 +64,20 @@
 - [ ] **Conditionals** (2 pts)
   - [ ] Implement `if`, `else if`, and `else` statements
 
-- [ ] **Loops** (2 pts)
-  - [ ] Use loops like `for`, `while`, or `forEach`
-  `for and foreach loops used in home_setup.js `
+- [x] **Loops** (2 pts)
+  - [x] Use loops like `for`, `while`, or `forEach`
+  `for and foreach loops used in home_setup.js `<br>
+  `while loop used in ./js/home/alert_management.js to remove DOM element`
 
 ## Capabilities Address Role (10 pts)
 - [ ] **User Profile Functionality** (6 pts)
   - [ ] Ensure functionality aligns with the user's profile requirements
 
 - [ ] **JavaScript Elements Accuracy** (2 pts)
-  - [ ] Ensure JavaScript elements reflect profile accurately
+  - [x] Ensure JavaScript elements reflect profile accurately
 
 - [ ] **Complexity and Understanding** (2 pts)
-  - [ ] Display appropriate complexity based on user profile
+  - [x] Display appropriate complexity based on user profile
 
 ## Must Follow
 - [ ] **Submission Format** (GitHub repository for source code files)

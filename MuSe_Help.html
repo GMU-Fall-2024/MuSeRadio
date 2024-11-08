@@ -115,22 +115,44 @@
 					<label for="name">name</label>
 				 </span>
 				 <span class="input_group">
-					<input type="email" name="email" id="email" placeholder="email">
+					<input type="email" name="email" id="email" placeholder="email" required>
 					<label for="email">email</label>
 				 </span>
 				 <span class="input_group">
-					<input type="text" name="phone" id="phone" placeholder="phone">
+					<input type="text" name="phone" id="phone" placeholder="phone" required>
 					<label for="phone">phone</label>
 				 </span>
 			</fieldset>
 
-			<fieldset>
+			<fieldset style="justify-content: center; display: flex; align-items: center;">
 				<!-- subject info -->
 				 <span class="input_group">
 					<input type="text" name="subject" id="subject" placeholder="subject" list="suggested_topics">
 					<label for="subject">subject</label>
 				 </span>
-
+             <span style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px;">
+               <strong style="text-align: center;">issue urgency</strong>
+               <p>select one so we determine how quickly to address your issue</p>
+             </span>
+             
+             <span class="input_group" style="display: flex; flex-direction: row; gap: 15px;">
+               <span class="radio_label">
+                  <input type="radio" name="low" id="low_priority">
+                  <label for="low_priority">low</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="medium" id="medium_prority">
+                  <label for="medium_prority">medium</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="high" id="high_priority">
+                  <label for="high_priority">high</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="critical" id="critical_priority">
+                  <label for="critical_priority">critical</label>
+               </span>
+             </span>
 				 <!-- <span class="input_group">
 					<input type="date" name="date" id="date">
 					<label for="date">date</label>

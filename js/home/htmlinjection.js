@@ -46,13 +46,13 @@ function alert_markup(alert)
             </span>
             <span class = "alert_controls">
                 <span class="control_group">
-                    <button id = "${alert.alert_id}" class = "${alert.alert_id}">
+                    <button id = "${alert.alertid}" class = " read_alert ${alert.alertid}">
                         <i class="fa-regular fa-circle-check"></i>
                     </button>
                     <label for="view">view</label>
                 </span>
                 <span class="control_group">
-                    <button id = "clear" class = "${alert.alert_id}">
+                    <button id = "${alert.alertid}" class = "ignore_alert ${alert.alertid}">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                     <label for="clear">clear</label>

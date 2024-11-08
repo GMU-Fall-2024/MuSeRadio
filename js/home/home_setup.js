@@ -2,6 +2,7 @@ import { DJ_MollyRocks } from "../../data/ProfileTypes.js";
 import { all_alerts } from "../../data/AlertInstance.js";
 import { profile_markup, alert_markup, event_card_markup } from "./htmlinjection.js";
 import { month_to_events } from "../../data/EventInstance.js";
+import { clear_alert } from "./alert_management.js";
 
 window.onload = function() {
     // setup profile card
@@ -30,8 +31,20 @@ window.onload = function() {
             month_markup.push(event_card_markup(month_schedule[i]));
         }
         schedule_markup.push(month_markup.join("\n"));
-        console.log(schedule_markup);
         schedule_section.innerHTML = schedule_markup.join("\n");
     });
-    
+
+    // register event listeners for alert controls
+    let read_buttons = document.getElementsByClassName("read_alert");
+    let ignore_buttons = document.getElementsByClassName("ignore_alert");
+    for (let i = 0; i < read_buttons.length; i++) {
+        read_buttons[i].addEventListener("click", () => {
+            clear_alert(read_buttons[i], "read");
+        });
+    }
+    for (let i = 0; i < ignore_buttons.length; i++) {
+        ignore_buttons[i].addEventListener("click", () => {
+            clear_alert(ignore_buttons[i], "ignored");
+        });
+    }
 }

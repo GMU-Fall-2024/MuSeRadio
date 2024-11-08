@@ -144,3 +144,11 @@ div[id = "help_container"] .header
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
 }
+
+.radio_label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

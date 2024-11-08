@@ -97,4 +97,20 @@ export const alert_6 = new muse_alert(
     new Date("2023-05-01, 9:00:00")
 );
 
-export const all_alerts = [alert_1, alert_2, alert_3, alert_4, alert_5, alert_6];
+export const all_alerts = [
+    alert_1, 
+    alert_2, 
+    alert_3, 
+    alert_4, 
+    alert_5, 
+    alert_6
+];
+
+export const alert_to_id = {
+    "alert_1": alert_1,
+    "alert_2": alert_2,
+    "alert_3": alert_3,
+    "alert_4": alert_4,
+    "alert_5": alert_5,
+    "alert_6": alert_6
+};
