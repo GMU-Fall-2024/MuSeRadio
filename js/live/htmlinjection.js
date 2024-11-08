@@ -1,7 +1,7 @@
-function playlist_song_card(song)
+export function playlist_song_card(song)
 {
     return `
-    <span class="song" id = "${song.songid}">
+    <span class="song" name = "${song.songid}">
        <span class="song_art">
           <img src="${song.cover}" alt="${song.title}">
        </span>
@@ -25,13 +25,13 @@ function playlist_song_card(song)
        </span>
        <span class="song_controls">
           <span class="control_group">
-             <button><i class="fa-solid fa-1"></i></button>
+             <button class = 'deck_1_load ${song.songid}'><i class="fa-solid fa-1"></i></button>
           </span>
           <span class="control_group">
-             <button><i class="fa-solid fa-headphones-simple"></i></button>
+             <button class = 'play_internal ${song.songid}'><i class="fa-solid fa-headphones-simple"></i></button>
           </span>
           <span class="control_group">
-             <button><i class="fa-solid fa-2"></i></button>
+             <button class = 'deck_2_load ${song.songid}'><i class="fa-solid fa-2"></i></button>
           </span>
        </span>
     </span>

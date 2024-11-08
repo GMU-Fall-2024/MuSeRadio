@@ -13,8 +13,8 @@
 
     <script src="https://kit.fontawesome.com/8c9fcb09a3.js" crossorigin="anonymous"></script>
     <script src="./js/live/play_effects.js"></script>
-    <script src="./js/live/live_setup.js"></script>
-    
+    <script src="./js/live/live_setup.js" type = "module"></script>
+
     <title>Live Session | MuSe Radio</title>
  </head>
  <body>
@@ -157,25 +157,25 @@
       </div>
       <div id="row_2">
          <!-- music controls and more -->
-          <section id = "deck_1">
+          <section id = "deck_1" >
             <span class="music_info">
-               <span class="music_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+               <span class="music_art"><img id = "deck_1_art" src="./assets/images/covers/sample1.jpg" alt=""></span>
                <span class="music_data">
-                  <span class="song_title">song title</span>
-                  <span class="song_artist">song artist</span>
-                  <span class="song_description">song description</span>
+                  <span class="song_title" id = "deck_1_title">song title</span>
+                  <span class="song_artist" id = "deck_1_artist">song artist</span>
+                  <span class="song_description" id = "deck_1_description">song description</span>
                   <span class="song_additional_info">
                      <span class="runtime">
                         <i class="fa-solid fa-stopwatch"></i> 
-                        <span>00:00</span>
+                        <span id = "deck_1_runtime">00:00</span>
                      </span>
                      <span class="release_year">
                         <i class="fa-regular fa-calendar"></i>
-                        <span>2002</span>
+                        <span id = "deck_1_release_year">2002</span>
                      </span>
                      <span class="album">
                         <i class="fa-solid fa-record-vinyl"></i> 
-                        <span>album name</span>
+                        <span id = "deck_1_album">album name</span>
                      </span>
                   </span>
                </span>
@@ -183,7 +183,7 @@
             <span class="play_progress">
                <span>0:00</span>
                <input type="range" name="" id="" value="0">
-               <span>99:99</span>
+               <span id = "deck_1_progress_end">99:99</span>
             </span>
             <span class="dj_controls">
                <span class="playback_controls">
@@ -191,7 +191,7 @@
                      <button><i class="fa-solid fa-backward-step"></i></button>
                   </span>
                   <span class="control_group">
-                     <button id = "play"><i class="fa-solid fa-play"></i></button>
+                     <button id = "deck_1_play"><i class="fa-solid fa-play"></i></button>
                   </span>
                   <span class="control_group">
                      <button><i class="fa-solid fa-pause"></i></button>
@@ -257,23 +257,23 @@
           </section>
           <section id = "deck_2">
             <span class="music_info">
-               <span class="music_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
+               <span class="music_art"><img id = "deck_2_art" src="./assets/images/covers/sample1.jpg" alt=""></span>
                <span class="music_data">
-                  <span class="song_title">song title</span>
-                  <span class="song_artist">song artist</span>
-                  <span class="song_description">song description</span>
+                  <span class="song_title" id = "deck_2_title">song title</span>
+                  <span class="song_artist" id = "deck_2_artist">song artist</span>
+                  <span class="song_description" id = "deck_2_description">song description</span>
                   <span class="song_additional_info">
                      <span class="runtime">
                         <i class="fa-solid fa-stopwatch"></i> 
-                        <span>00:00</span>
+                        <span id = "deck_2_runtime">00:00</span>
                      </span>
                      <span class="release_year">
                         <i class="fa-regular fa-calendar"></i>
-                        <span>2002</span>
+                        <span id = "deck_2_release_year">2002</span>
                      </span>
                      <span class="album">
                         <i class="fa-solid fa-record-vinyl"></i> 
-                        <span>album name</span>
+                        <span id = "deck_2_album">album name</span>
                      </span>
                   </span>
                </span>
@@ -281,7 +281,7 @@
             <span class="play_progress">
                <span>0:00</span>
                <input type="range" name="" id="" value="0">
-               <span>99:99</span>
+               <span id = "deck_2_progress_end">99:99</span>
             </span>
             <span class="dj_controls">
                <span class="playback_controls">
@@ -289,7 +289,7 @@
                      <button><i class="fa-solid fa-backward-step"></i></button>
                   </span>
                   <span class="control_group">
-                     <button id = "play"><i class="fa-solid fa-play"></i></button>
+                     <button id = "deck_2_play"><i class="fa-solid fa-play"></i></button>
                   </span>
                   <span class="control_group">
                      <button><i class="fa-solid fa-pause"></i></button>
@@ -326,171 +326,12 @@
             <span class="playlist_info">
                <span class="playlist_title">playlist title</span>
                <span class="playlist_creator">
-                  <span class="creator_avatar"><img src="./assets/images/avatars/Tim.jpg" alt=""></span>
+                  <span class="creator_avatar"><img id = "creator_avatar_image" src="./assets/images/avatars/Tim.jpg" alt="" ></span>
                   <span class="creator_name">creator name</span>
                </span>
             </span>
-            <span class="songs_container">
-               <span class="song">
-                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
-                  <span class="song_info">
-                     <span class="song_title">song title</span>
-                     <span class="song_artist">song artist</span>
-                     <span class="song_details">
-                        <span class="runtime">
-                           <i class="fa-solid fa-stopwatch"></i>
-                           <span>00:00</span>
-                        </span>
-                        <span class="release_year">
-                           <i class="fa-regular fa-calendar"></i>
-                           <span>2002</span>
-                        </span>
-                        <span class="album">
-                           <i class="fa-solid fa-record-vinyl"></i>
-                           <span>album name</span>
-                        </span>
-                     </span>
-                  </span>
-                  <span class="song_controls">
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-1"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-headphones-simple"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-2"></i></button>
-                     </span>
-                  </span>
-               </span>
-               <span class="song">
-                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
-                  <span class="song_info">
-                     <span class="song_title">song title</span>
-                     <span class="song_artist">song artist</span>
-                     <span class="song_details">
-                        <span class="runtime">
-                           <i class="fa-solid fa-stopwatch"></i>
-                           <span>00:00</span>
-                        </span>
-                        <span class="release_year">
-                           <i class="fa-regular fa-calendar"></i>
-                           <span>2002</span>
-                        </span>
-                        <span class="album">
-                           <i class="fa-solid fa-record-vinyl"></i>
-                           <span>album name</span>
-                        </span>
-                     </span>
-                  </span>
-                  <span class="song_controls">
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-1"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-headphones-simple"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-2"></i></button>
-                     </span>
-                  </span>
-               </span>
-               <span class="song">
-                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
-                  <span class="song_info">
-                     <span class="song_title">song title</span>
-                     <span class="song_artist">song artist</span>
-                     <span class="song_details">
-                        <span class="runtime">
-                           <i class="fa-solid fa-stopwatch"></i>
-                           <span>00:00</span>
-                        </span>
-                        <span class="release_year">
-                           <i class="fa-regular fa-calendar"></i>
-                           <span>2002</span>
-                        </span>
-                        <span class="album">
-                           <i class="fa-solid fa-record-vinyl"></i>
-                           <span>album name</span>
-                        </span>
-                     </span>
-                  </span>
-                  <span class="song_controls">
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-1"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-headphones-simple"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-2"></i></button>
-                     </span>
-                  </span>
-               </span>
-               <span class="song">
-                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
-                  <span class="song_info">
-                     <span class="song_title">song title</span>
-                     <span class="song_artist">song artist</span>
-                     <span class="song_details">
-                        <span class="runtime">
-                           <i class="fa-solid fa-stopwatch"></i>
-                           <span>00:00</span>
-                        </span>
-                        <span class="release_year">
-                           <i class="fa-regular fa-calendar"></i>
-                           <span>2002</span>
-                        </span>
-                        <span class="album">
-                           <i class="fa-solid fa-record-vinyl"></i>
-                           <span>album name</span>
-                        </span>
-                     </span>
-                  </span>
-                  <span class="song_controls">
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-1"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-headphones-simple"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-2"></i></button>
-                     </span>
-                  </span>
-               </span>
-               <span class="song">
-                  <span class="song_art"><img src="./assets/images/covers/sample1.jpg" alt=""></span>
-                  <span class="song_info">
-                     <span class="song_title">song title</span>
-                     <span class="song_artist">song artist</span>
-                     <span class="song_details">
-                        <span class="runtime">
-                           <i class="fa-solid fa-stopwatch"></i>
-                           <span>00:00</span>
-                        </span>
-                        <span class="release_year">
-                           <i class="fa-regular fa-calendar"></i>
-                           <span>2002</span>
-                        </span>
-                        <span class="album">
-                           <i class="fa-solid fa-record-vinyl"></i>
-                           <span>album name</span>
-                        </span>
-                     </span>
-                  </span>
-                  <span class="song_controls">
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-1"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-headphones-simple"></i></button>
-                     </span>
-                     <span class="control_group">
-                        <button><i class="fa-solid fa-2"></i></button>
-                     </span>
-                  </span>
-               </span>
+            
+            <span class="songs_container" id = "playlist_songs_container">
             </span>
          </span>
          <span class="right">
@@ -581,6 +422,10 @@
       <audio src="./assets/audio/effects/drums.mp3" id="drums_effect" class = "sound_effect"></audio>
       <audio src="./assets/audio/effects/explosion.mp3" id="explosion_effect" class = "sound_effect"></audio>
       <audio src="./assets/audio/effects/guitar.mp3" id="guitar_effect" class = "sound_effect"></audio>
+    </span>
+
+    <span id="discovered_songs">
+
     </span>
  </body>
  </html>

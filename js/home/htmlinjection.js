@@ -71,7 +71,7 @@ function event_card_markup(event)
     let guests_markup = event_guests.join("\n");
 
     return `
-            <span class="event">
+            <span class="event" id = "${event.eventid}">
             <span class="date">
                 <span class="day">${event.day_of_week}</span>
                 <span class="date">${event.event_date.getDate().toString().padStart(2, '0')}</span>
@@ -91,7 +91,7 @@ function event_card_markup(event)
                 </span>
 
                 <span class="other_info">
-                    <span class="description">some description goes here it would just provide a short description of the event</span>
+                    <span class="description">${event.event_description}</span>
                     <span class="guests">
                         <ul>
                             ${guests_markup}
@@ -108,7 +108,7 @@ function event_card_markup(event)
                 <label>view</label>
                 </span>
                 <span class="control_group">
-                <button>
+                <button class = "go_live">
                     <i class="fa-solid fa-podcast"></i>
                 </button>
                 <label>live</label>

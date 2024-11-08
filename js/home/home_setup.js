@@ -3,6 +3,7 @@ import { all_alerts } from "../../data/AlertInstance.js";
 import { profile_markup, alert_markup, event_card_markup } from "./htmlinjection.js";
 import { month_to_events } from "../../data/EventInstance.js";
 import { clear_alert } from "./alert_management.js";
+import { eventid_to_instance } from "../../data/EventInstance.js";
 
 window.onload = function() {
     // setup profile card
@@ -47,4 +48,44 @@ window.onload = function() {
             clear_alert(ignore_buttons[i], "ignored");
         });
     }
+
+    // event listeners for cancelling event
+    // event listeners for viewing event
+    // event listeners for going live
+    let go_live_buttons = document.getElementsByClassName("go_live");
+    let current_point = null;
+    let event_instance = null;
+    let button =null;
+    let scheduleview = document.getElementById("user_schedule");
+    let currentdate = new Date();
+    let live_link = null
+    for (let i = 0; i < go_live_buttons.length; i++) {
+        button = go_live_buttons[i];
+        current_point = button;
+        // disable past events
+        while(current_point.className !== "event" || current_point.tagName.toLowerCase() !== "span" && current_point.id == undefined) 
+        {
+            current_point = current_point.parentElement;
+        }
+        event_instance = eventid_to_instance[current_point.id];
+        if(event_instance != undefined) {
+            console.log(event_instance.event_date.getDate(), currentdate.getDate())
+            if (event_instance.event_date <= Date.now()) {
+                button.style.opacity = 0.25;
+            }
+            else if (event_instance.event_date.getDate() == currentdate.getDate() && event_instance.event_date.getMonth() == currentdate.getMonth() && event_instance.event_date.getYear() == currentdate.getYear()) {
+                button.style.opacity = 1;
+                button.setAttribute("onclick", "window.location.href = '../../MuSe_DJ_Live.html?event_id=" + event_instance.eventid + "';");
+                button.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+                // console.log("button", button);
+            }
+            else if (event_instance.event_date > Date.now()) {
+                button.style.opacity = 0.25;
+                button.setAttribute("onclick", "alert(`Event scheduled for later day\nCannot go live`)");
+                //modify go live button
+                // document.getElementById("go_live").setAttribute("onclick", "window.location.href = '../../MuSe_DJ_Live.html?event_id=" + event_instance.event_id + "';");
+            }
+        }
+    }
+    document.getElementById("live").setAttribute("onclick", live_link);
 }
