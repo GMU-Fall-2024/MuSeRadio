@@ -20,7 +20,8 @@
 
 ## Manipulate Style (30 pts)
 - [ ] **Modifying a DOM Element** (10 pts)
-  - [ ] Select and modify DOM elements (e.g., change text, attributes, add/remove elements)
+  - [ ] Select and modify DOM elements (e.g., change text, attributes, add/remove elements) <br>
+  `Change of color and background in effects panel`
 
 - [ ] **Properties** (10 pts)
   - [ ] Create custom objects and access/modify their properties
@@ -50,6 +51,7 @@
 
 - [ ] **Loops** (2 pts)
   - [ ] Use loops like `for`, `while`, or `forEach`
+  `for and foreach loops used in home_setup.js `
 
 ## Capabilities Address Role (10 pts)
 - [ ] **User Profile Functionality** (6 pts)
