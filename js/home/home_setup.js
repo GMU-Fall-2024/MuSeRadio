@@ -69,15 +69,18 @@ window.onload = function() {
         }
         event_instance = eventid_to_instance[current_point.id];
         if(event_instance != undefined) {
-            console.log(event_instance.event_date.getDate(), currentdate.getDate())
-            if (event_instance.event_date <= Date.now()) {
-                button.style.opacity = 0.25;
-            }
-            else if (event_instance.event_date.getDate() == currentdate.getDate() && event_instance.event_date.getMonth() == currentdate.getMonth() && event_instance.event_date.getYear() == currentdate.getYear()) {
+            console.log("event instance", event_instance.event_name);
+            console.log("date",event_instance.event_date.getDate(), currentdate.getDate())
+            console.log("month", event_instance.event_date.getMonth(), currentdate.getMonth());
+            if (event_instance.event_date.getDate() == currentdate.getDate() && event_instance.event_date.getMonth() == currentdate.getMonth() && event_instance.event_date.getFullYear() == currentdate.getFullYear()) {
                 button.style.opacity = 1;
                 button.setAttribute("onclick", "window.location.href = '../../MuSe_DJ_Live.html?event_id=" + event_instance.eventid + "';");
                 button.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
                 // console.log("button", button);
+            }
+            else if (event_instance.event_date < Date.now()) {
+                button.style.opacity = 0.25;
+                button.setAttribute("onclick", "alert(`Event past current date\nCannot go live`)");
             }
             else if (event_instance.event_date > Date.now()) {
                 button.style.opacity = 0.25;

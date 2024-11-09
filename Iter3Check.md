@@ -39,7 +39,7 @@
   `./data/SongInstances.js objects for songs in playlist`<br>
   `Modified alert instances in ./js/home/alert_management.js to modify the status of an alert`<br>
 
-- [ ] **Window Object** (10 pts)
+- [x] **Window Object** (10 pts)
   - [x] Use `window` or `document` object methods/properties (e.g., `alert`, `setTimeout`, `DOMContentLoaded`)
   `window.onload() used to setup home page in ./js/home/home_setup.js`<br>
   `setTimeout() used in live page to change style of effects buttons when the audio is done playing`
@@ -85,14 +85,14 @@
 - [x] **User Profile Functionality** (6 pts)
   - [x] Ensure functionality aligns with the user's profile requirements
 
-- [ ] **JavaScript Elements Accuracy** (2 pts)
+- [x] **JavaScript Elements Accuracy** (2 pts)
   - [x] Ensure JavaScript elements reflect profile accurately
 
 - [x] **Complexity and Understanding** (2 pts)
   - [x] Display appropriate complexity based on user profile
 
 ## Must Follow
-- [ ] **Submission Format** (GitHub repository for source code files)
-- [ ] **Demonstration Video**
-  - [ ] Walk through rubric and show implementation
-- [ ] **Self-Evaluation Documentation**
+- [x] **Submission Format** (GitHub repository for source code files)
+- [x] **Demonstration Video**
+  - [x] Walk through rubric and show implementation
+- [x] **Self-Evaluation Documentation**
