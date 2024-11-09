@@ -127,6 +127,7 @@ window.onload = function() {
     for (let i = 0; i < deck_1_loaders.length; i++) {
         deck_1_loaders[i].addEventListener("click", () => {
             load_to_deck(deck_1_loaders[i].classList[1], 1);
+            let state = "not loaded";
             if(state === "loaded")
             {
                 // deck_2_loaders[i].style.display = "flex";
@@ -159,16 +160,46 @@ window.onload = function() {
     // listeners for deck players
     let play_deck_1 = document.getElementById("deck_1_play");
     play_deck_1.addEventListener("click", () => {
-        
+        let deck1_loads = document.getElementById("deck_1").classList;
+        console.log(deck1_loads);
+        console.log(deck1_loads[deck1_loads.length - 1])
+        play_audio(deck1_loads[deck1_loads.length - 1]);
     })
     let play_deck_2 = document.getElementById("deck_2_play"); 
+    play_deck_2.addEventListener("click", () => {
+        let deck2_loads = document.getElementById("deck_2").classList;
+        console.log(deck2_loads);
+        console.log(deck2_loads[deck2_loads.length - 1])
+        play_audio(deck2_loads[deck2_loads.length - 1]);
+    })
+
+    let pause_deck_1 = document.getElementById("deck_1_pause");
+    pause_deck_1.addEventListener("click", () => {
+        let deck1_loads = document.getElementById("deck_1").classList;
+        console.log(deck1_loads);
+        console.log(deck1_loads[deck1_loads.length - 1])
+        pause_audio(deck1_loads[deck1_loads.length - 1]);
+    })
+    let pause_deck_2 = document.getElementById("deck_2_pause"); 
+    pause_deck_2.addEventListener("click", () => {
+        let deck2_loads = document.getElementById("deck_2").classList;
+        console.log(deck2_loads);
+        console.log(deck2_loads[deck2_loads.length - 1])
+        pause_audio(deck2_loads[deck2_loads.length - 1]);
+    })
 }
 
 export function play_audio(songid) 
 {
     let audio_element = document.getElementById(songid);
-    console.log(audio_element);
+    // console.log(audio_element);
     document.getElementById(songid).play();
+}
+
+export function pause_audio(songid)
+{
+    let audio_element = document.getElementById(songid);
+    audio_element.pause();
 }
 
 export function load_to_deck(songid, deck)
@@ -223,4 +254,5 @@ export function load_to_deck(songid, deck)
         deck_runtime_end = document.getElementById("deck_2_progress_end");
         deck_runtime_end.innerText = audio_instance.runtime;
     }
+    deck_container.classList.add(songid);
 }

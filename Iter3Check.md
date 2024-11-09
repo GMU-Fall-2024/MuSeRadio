@@ -9,17 +9,20 @@
   - [x] Use `addEventListener` method to attach event handlers.<br>
   `Completed in sound effects on dj live page`
 
-- [ ] **Event Types** (10 pts)
-  - [ ] Implement various event types: `click`, `onsubmit`, `keydown` (8 pts)
-  - [ ] Verify event triggered or action completed successfully (2 pts)
+- [x] **Event Types** (10 pts)
+  - [x] Implement various event types: `click`, `onsubmit`, `keydown` (8 pts)
+  - [x] Verify event triggered or action completed successfully (2 pts)
+  `Utilization of the click type for various buttons in ./js/live/live_setup.js`<br>
 
-- [ ] **Validating Forms** (10 pts)
-  - [ ] Implement client-side validation for form inputs (8 pts)
-    - Example: required fields, data format checks, matching specific patterns.
-  - [ ] Ensure validations are visible and show feedback to user (2 pts)
+- [x] **Validating Forms** (10 pts)
+  - [x] Implement client-side validation for form inputs (8 pts)
+  `pattern matching used to validate email in help page`<br>
+  `other validations used in ./js/help/validation.js`<br>
+  - [x] Ensure validations are visible and show feedback to user (2 pts)
+  `user gets feedback on validation in ./js/help/validation.js`
 
 ## Manipulate Style (30 pts)
-- [ ] **Modifying a DOM Element** (10 pts)
+- [x] **Modifying a DOM Element** (10 pts)
   - [x] Select and modify DOM elements (e.g., change text, attributes, add/remove elements) <br>
   `Change of color and background in effects panel`<br>
   `Removal of alerts in home screen utilizes DOM element selection`<br>
@@ -79,13 +82,13 @@
   `while loop used in ./js/home/alert_management.js to remove DOM element`
 
 ## Capabilities Address Role (10 pts)
-- [ ] **User Profile Functionality** (6 pts)
-  - [ ] Ensure functionality aligns with the user's profile requirements
+- [x] **User Profile Functionality** (6 pts)
+  - [x] Ensure functionality aligns with the user's profile requirements
 
 - [ ] **JavaScript Elements Accuracy** (2 pts)
   - [x] Ensure JavaScript elements reflect profile accurately
 
-- [ ] **Complexity and Understanding** (2 pts)
+- [x] **Complexity and Understanding** (2 pts)
   - [x] Display appropriate complexity based on user profile
 
 ## Must Follow
