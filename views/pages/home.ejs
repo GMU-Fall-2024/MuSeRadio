@@ -1,0 +1,246 @@
+<script>
+// go to broad cast page
+// ignore alerts
+// read alerts
+</script>
+</script>
+
+<main>
+
+    <div id = "left_container">
+
+        <section id = "profile_info">
+            <span class="welcome_text">play the world something!</span>
+            <span class="profile">
+                <span class="avatar">
+                    <span class="profile_image"><img src= "<%= dj.Avatar %>" alt=""></span>
+                    <span class="status"><%= dj.DJStatus %></span>
+                </span>
+                <span class="summary">
+                    <span class = "dj_info">
+                        <span class = "dj_name">DJ <%= dj.StageName %></span>
+                        <span>Action</span>
+                    </span>
+                    <span class="other_info">
+                        <span class = "dj_stat">
+                        <span class = "number"><%= dj.PastEvents.length.toString().padStart(2, '0') %></span><span>events hosted</span>
+                        </span>
+                        <span class = "dj_stat">
+                        <span class = "number"><%= (dj.Schedule.length - dj.PastEvents.length).toString().padStart(2, '0') %></span><span>upcoming events</span>
+                        </span>
+                        <span class = "dj_stat">
+                        <span class="number"><%= dj.DiscoveredSongs.length.toString().padStart(2, '0') %></span><span>songs discovered</span>
+                        </span>
+                        <span class = "dj_stat">
+                        <span class = "number"><%= dj.Subscribers.length.toString().padStart(2, '0') %></span><span>subscribers</span>
+                        </span>
+                    </span>
+                </span>
+            </span>
+        </section>
+
+        <section>
+            <!-- Todo: put something here -->
+        </section>
+
+        <section style = "overflow: hidden;">
+            <!-- Schedule -->
+             <span class="header">
+                <span class = "control_group">
+                   <input type="radio" name="" id="toggle_schedule">
+                   <label for="toggle_schedule"><i class="fa-solid fa-calendar-week"></i> schedule</label>
+                </span>
+             </span>
+             <span class="schedule" id = "user_schedule" style="overflow-y: scroll;">
+               <!-- schedule markup goes here -->
+                
+                <% for (let i = 0; i < schedule.length; i++) { %>
+                    <% let current_month_year = `${schedule[i].month_string} ${schedule[i].year_string}`; %>
+                    <% if (i === 0 || schedule[i].month_string !== schedule[i-1].month_string || schedule[i].year_string !== schedule[i-1].year_string) { %>
+                        <span class="month_year" style="text-align: left; justify-content: flex-start; display: flex;width: 100%; padding-left: 70px;"><%= current_month_year %></span>
+                    <% } %>
+                    <span class="event" id = "<%= schedule[i].eventid %>">
+                        <span class="date">
+                            <span class="day"><%= schedule[i].day_of_week  %></span>
+                            <% let event_date = new Date(schedule[i].event_date); %>
+                            <span class="date"><%= event_date.getDate().toString().padStart(2, '0') %></span>
+                        </span>
+                        <span class = "about_event">
+                            <span class="event_name"><%= schedule[i].event_name %></span>
+                            <span class = "event_info">
+                            <span class="time_channel">
+                                <span class="time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <span><%= schedule[i].event_start_time %>-<%= schedule[i].event_end_time %></span>
+                                </span>
+                                <span class="channel">
+                                    <i class="fa-solid fa-tower-broadcast"></i>
+                                    <span><%= schedule[i].event_location %></span>
+                                </span>
+                            </span>
+            
+                            <span class="other_info">
+                                <span class="description"><%= schedule[i].event_description %></span>
+                                <span class="guests">
+                                    <ul>
+                                        <% let current_event = schedule[i]; for (let j = 0; j < schedule[i].event_guests.length; j++) {let current_guest = schedule[i].event_guests[j]; %>
+                                            <li><img src="<%= event_guests[current_guest].Avatar %>" alt="<%= schedule[i].event_guests[j].FirstName %>"></li>
+                                        <% } %>
+                                    </ul>
+                                </span>
+                            </span>
+                            </span>
+                        </span>
+                        <span class="controls">
+                            <span class="control_group">
+                            <button>
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+                            <label>view</label>
+                            </span>
+                            <span class="control_group">
+                            <% if(current_event.status === "unstarted") { %>
+                                <button class = "go_live" onclick = "window.location.href = '/broadcast/<%=current_event.eventid %>'" >
+                                    <i class="fa-solid fa-podcast"></i>
+                                </button>
+                            <% } else if(current_event.status === "ended") {%>
+                                <button class = "go_live" onclick="alert('event ended, cannot start broadcast')" style="opacity: 0.25;">
+                                    <i class="fa-solid fa-podcast"></i>
+                                </button>
+                            <% } else if (current_event.status === "upcoming") { %>
+                                <button class = "go_live" onclick="alert('event not ready to start, cannot start broadcast')" style="opacity: 0.25;">
+                                    <i class="fa-solid fa-podcast"></i>
+                                </button>
+                            <% } %>
+                            <label>live</label>
+                            </span>
+                            <span class="control_group">
+                            <button>
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <label>cancel</label>
+                            </span>
+                        </span>
+                    </span>
+                <% } %>
+             </span>
+         </section>
+    </div>
+
+    <div id="right_container">
+
+        <section>
+            <span class="header">
+               <span class = "control_group">
+                  <input type="radio" name="" id="toggle_alerts">
+                  <label for="toggle_alerts"><i class="fa-solid fa-bell"></i> alerts</label>
+               </span>
+               <span class = "control_group">
+                  <input type="radio" name="" id="toggle_inbox">
+                  <label for="toggle_inbox"><i class="fa-solid fa-inbox"></i> inbox</label>
+               </span>
+            </span>
+            <span class="content">
+               <span class="content_one" id = "alerts_container">
+                  <!-- EJS generates markup -->
+                    <% for (let i = 0; i < dj.alerts.length; i++) { %>
+                        <span class="alert">
+                            <span class = "alert_icon" style ="background-color: <%= alert_color[dj.alerts[i].alert_type] %>;">
+                                <i class="<%= dj.alerts[i].alert_icon %>" style = "color: #ebeff0;"></i>
+                            </span>
+                            <span class = "alert_info">
+                                <span class="alert_header"><%= dj.alerts[i].alert_header %></span>
+                                <span class="alert_description"><%= dj.alerts[i].alert_description %></span>
+                            </span>
+                            <span class = "alert_controls">
+                                <span class="control_group">
+                                    <button id = "<%= dj.alerts[i].alertid %>" class = " read_alert <%= dj.alerts.alertid %>" onclick="read_alert('<%= dj.alerts[i].alertid %>')">
+                                        <i class="fa-regular fa-circle-check"></i>
+                                    </button>
+                                    <label for="view">view</label>
+                                </span>
+                                <span class="control_group">
+                                    <button id = "<%= dj.alerts.alertid %>" class = "<%= dj.alerts.alertid %>" onclick="ignore_alert('<%= dj.alerts[i].alertid %>')">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                    <label for="clear">clear</label>
+                                </span>
+                            </span>
+                        </span>
+                    <% } %>
+               </span>
+               <span class="content_two" id = "inbox_container">
+
+               </span>
+            </span>
+        </section> 
+
+        <section>
+            <span class="header">
+                <span>last broadcast metrics</span>
+                <i class="fa-solid fa-chart-simple"></i>
+             </span>
+             <span class="metrics">
+                <span class="metric">
+                   <!-- listeners -->
+                    <span class="number">
+                      <i class="fa-solid fa-headphones-simple"></i>
+                      <span class="value">00</span>
+                    </span>
+                    <span class="metric_name">
+                      <span>listeners</span>
+                    </span>
+                    <span class="metric_change">+0.00%</span>
+                </span>
+                <span class="metric">
+                   <!-- stream time -->
+                   <span class="number">
+                      <i class="fa-solid fa-stopwatch"></i>
+                      <span class="value">00 <sup>.00</sup></span>
+                    </span>
+                    <span class="metric_name">
+                      <span>minutes</span>
+                    </span>
+                    <span class="metric_change" style="text-align: center; justify-content: center;">+0.00%</span>
+                </span>
+                <span class="metric">
+                   <!-- likes -->
+                   <span class="number">
+                      <i class="fa-solid fa-heart"></i>
+                      <span class="value">00</span>
+                    </span>
+                    <span class="metric_name" style="text-align: right; justify-content: right; width: 100%;">
+                      <span style="text-align: right; justify-content: right;">likes</span>
+                    </span>
+                    <span class="metric_change" style="text-align: right; justify-content: right;">+0.00%</span>
+                </span>
+             </span>
+        </section>
+
+        <section>
+                <span class="header">
+                   <span>pinned contacts</span>
+                   <i class="fa-solid fa-address-book"></i>
+                </span>
+                <span class="contacts">
+                   <span class="contact">
+                      <span class="avatar"><img src="./assets/images/avatars/Tim.jpg" alt=""></span>
+                      <span class="info">
+                         <span class="name">Tim Jones</span>
+                         <span class="role">producer</span>
+                         <span class="notification">1 new notification</span>
+                      </span>
+                   </span>
+                   <span class="contact">
+                      <span class="avatar"><img src="./assets/images/avatars/Melody.jpg" alt=""></span>
+                      <span class="info">
+                         <span class="name">Melody Blinks</span>
+                         <span class="role">manager</span>
+                         <span class="notification">3 new notifications</span>
+                      </span>
+                   </span>
+                </span>
+        </section>
+
+    </div>
+</main>

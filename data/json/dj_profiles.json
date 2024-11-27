@@ -1,0 +1,42 @@
+{
+    "_id": {
+      "$oid": "6743f969faa70afe7ae5879b"
+    },
+    "id": "DJ_MollyRocks",
+    "FirstName": "Jennifer",
+    "LastName": "Summers",
+    "Email": "djmolly@muse.radio",
+    "Phone": "555-555-5555",
+    "DateOfBirth": "2000-01-01T00:00:00.000Z",
+    "Bio": "I'm a dj trying to make it to music school",
+    "Avatar": "/assets/images/avatars/MollyRocks.jpg",
+    "StageName": "MollyRocks",
+    "Schedule": [
+      "event_1",
+      "event_2",
+      "event_3"
+    ],
+    "DJStatus": "online",
+    "Subscribers": [
+      "user_1",
+      "user_2",
+      "user_3",
+      "user_4",
+      "user_5",
+      "user_6",
+      "user_7",
+      "user_8",
+      "user_9",
+      "user_10"
+    ],
+    "DiscoveredSongs": [
+      "song_1",
+      "song_2",
+      "song_3"
+    ],
+    "PastEvents": [
+      "event_4",
+      "event_5"
+    ],
+    "userid": "user_1"
+  }

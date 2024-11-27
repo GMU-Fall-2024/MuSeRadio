@@ -1,0 +1,32 @@
+[
+    {
+        "id": "manager_1",
+        "FirstName": "Melody",
+        "LastName": "Blinks",
+        "Email": "mblinks@muse.radio",
+        "Phone": "02987411586",
+        "DateOfBirth": "1987-03-05T00:00:00.000Z",
+        "Bio": "Versatile manager with nearly 15 years of practice in the music industry and experience in event management",
+        "Avatar": "/assets/images/avatars/Melody.jpg"
+    },
+    {
+        "id": "manager_2",
+        "FirstName": "Rebecca",
+        "LastName": "Stone",
+        "Email": "rstone@muse.radio",
+        "Phone": "3034567890",
+        "DateOfBirth": "1989-09-10T00:00:00.000Z",
+        "Bio": "Resourceful manager with experience in talent scouting and project management across the music industry.",
+        "Avatar": "/assets/images/avatars/RebeccaStone.jpg"
+    },
+    {
+        "id": "manager_3",
+        "FirstName": "James",
+        "LastName": "Evans",
+        "Email": "jevans@muse.radio",
+        "Phone": "6209988776",
+        "DateOfBirth": "1986-01-30T00:00:00.000Z",
+        "Bio": "Experienced manager specializing in artist branding and tour management with a strong industry network.",
+        "Avatar": "/assets/images/avatars/JamesEvans.jpg"
+    }
+]

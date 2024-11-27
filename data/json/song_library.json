@@ -1,0 +1,222 @@
+[
+    {
+        "songid": "song_1",
+        "title": "tell me the truth",
+        "artist": "denys brodovskyi",
+        "album": "unknown",
+        "release_year": "2022",
+        "runtime": "03:08",
+        "source": "/assets/audio/songs/tell_me_the_truth.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/sample1.jpg"
+    },
+    {
+        "songid": "song_2",
+        "title": "last flight home",
+        "artist": "marc burt",
+        "album": "unknown",
+        "release_year": "2021",
+        "runtime": "06:10",
+        "source": "/assets/audio/songs/last_flight_home.mp3",
+        "description": "Last Flight Home is a haunting progressive house track with lush pads, a classic guitar hook and bouncing synth patterns.",
+        "cover": "/assets/images/covers/sample2.jpg"
+    },
+    {
+        "songid": "song_3",
+        "title": "let's get it started",
+        "artist": "BoDleasons",
+        "album": "legacy volume 1",
+        "release_year": "2024",
+        "runtime": "01:55",
+        "source": "/assets/audio/songs/lets_get_it_started.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/sample3.jpg"
+    },
+    {
+        "songid": "song_4",
+        "title": "magnetostriction",
+        "artist": "Silicon Transmitter",
+        "album": "amplitude",
+        "release_year": "2024",
+        "runtime": "03:55",
+        "source": "/assets/audio/songs/magnetostriction.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/sample4.jpg"
+    },
+    {
+        "songid": "song_5",
+        "title": "la prima neve",
+        "artist": "emilio robot",
+        "album": "le transizioni ep",
+        "release_year": "2024",
+        "runtime": "03:59",
+        "source": "/assets/audio/songs/la_prima_neve.mp3",
+        "description": "Part of the EP \"Le Transizioni\", to be released on January 10, 2025\n\n-----\n01. Abituarsi\n02. La Prima Neve\n03. Outro\n-----\n\nEmilio Robot is the toy that back in the 90s I always wanted but never got.\nA solo project by Jacopo Grande from Lake Como (Italy) mixing instrumental post-rock with layers of dark ambient and electronic textures. The sound shifts between energetic tracks with epic crescendos and calmer atmospheric compositions.\n\nInspired by the sonic landscapes of influential post-rock bands, it aims to create music that feels cinematic, emotional, and immersive, blending haunting atmospheres with evolving soundscapes.",
+        "cover": "/assets/images/covers/la_prima_neve.jpg"
+    },
+    {
+        "songid": "song_6",
+        "title": "one day, backbone",
+        "artist": "Geb",
+        "album": "doubleplus unhate",
+        "release_year": "2024",
+        "runtime": "02:47",
+        "source": "/assets/audio/songs/one_day_backbone.mp3",
+        "description": "It's how you stand up to bullies.\nThis uses a single Cardinal patch based on Ouros by CV funk, with additional effects and improvised and composed strings added in Bitwig 5.2.1.\nThe voice that led to this title just emerged from some of the effects.",
+        "cover": "/assets/images/covers/one_day_backbone.jpg"
+    },
+    {
+        "songid": "song_7",
+        "title": "cool down",
+        "artist": "triple5 here",
+        "album": "mellow fellow",
+        "release_year": "2024",
+        "runtime": "03:14",
+        "source": "/assets/audio/songs/cool_down.mp3",
+        "description": "I think this type of music should be called Slow Tunes.",
+        "cover": "/assets/images/covers/cool_down.jpg"
+    },
+    {
+        "songid": "song_8",
+        "title": "i stayed home",
+        "artist": "ethan persoff",
+        "album": "single",
+        "release_year": "2008",
+        "runtime": "10:41",
+        "source": "/assets/audio/songs/i_stayed_home.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/i_stayed_home.jpg"
+    },
+    {
+        "songid": "song_9",
+        "title": "lost",
+        "artist": "mudboy",
+        "album": "this is folk music",
+        "release_year": "2008",
+        "runtime": "08:11",
+        "source": "/assets/audio/songs/lost.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/lost.jpg"
+    },
+    {
+        "songid": "song_10",
+        "title": "cunca",
+        "artist": "rainbro",
+        "album": "endless joy split EP",
+        "release_year": "2008",
+        "runtime": "03:30",
+        "source": "/assets/audio/songs/cunca.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/cunca.jpg"
+    },
+    {
+        "songid": "song_11",
+        "title": "sunset",
+        "artist": "TRG banks",
+        "album": "The life and times of joshua harris",
+        "release_year": "2021",
+        "runtime": "01:50",
+        "source": "/assets/audio/songs/sunset.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/sunset.jpg"
+    },
+    {
+        "songid": "song_12",
+        "title": "the road",
+        "artist": "Min-Y-Lan",
+        "album": "regulate condition",
+        "release_year": "2010",
+        "runtime": "05:12",
+        "source": "/assets/audio/songs/the_road.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/the_road.jpg"
+    },
+    {
+        "songid": "song_13",
+        "title": "a difficult subject",
+        "artist": "the insider",
+        "album": "all's fair in love of wax",
+        "release_year": "2010",
+        "runtime": "04:48",
+        "source": "/assets/audio/songs/a_difficult_subject.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/a_difficult_subject.jpg"
+    },
+    {
+        "songid": "song_14",
+        "title": "with violence",
+        "artist": "catholic witches",
+        "album": "the bone leg",
+        "release_year": "2014",
+        "runtime": "08:44",
+        "source": "/assets/audio/songs/with_violence.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/with_violence.jpg"
+    },
+    {
+        "songid": "song_15",
+        "title": "potato potato",
+        "artist": "windom earle",
+        "album": "a series of minor personal tragedies",
+        "release_year": "2011",
+        "runtime": "04:20",
+        "source": "/assets/audio/songs/potato_potato.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/potato_potato.jpg"
+    },
+    {
+        "songid": "song_16",
+        "title": "ace of bananas",
+        "artist": "azureflux",
+        "album": "pocket boy",
+        "release_year": "2015",
+        "runtime": "02:10",
+        "source": "/assets/audio/songs/ace_of_bananas.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/ace_of_bananas.jpg"
+    },
+    {
+        "songid": "song_17",
+        "title": "crabs ashore",
+        "artist": "vespero",
+        "album": "liventure#21",
+        "release_year": "2010",
+        "runtime": "09:38",
+        "source": "/assets/audio/songs/crabs_ashore.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/crabs_ashore.jpg"
+    },
+    {
+        "songid": "song_18",
+        "title": "arkansas",
+        "artist": "eggs over easy",
+        "album": "Live at WFMU for Surface Noise with Joe McGasko, 6/6/2016",
+        "release_year": "2017",
+        "runtime": "03:58",
+        "source": "/assets/audio/songs/arkansas.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/arkansas.jpg"
+    },
+    {
+        "songid": "song_19",
+        "title": "outer east",
+        "artist": "horse lords",
+        "album": "Live on WFMU's Transpacific Sound Paradise: Sat, Jan 31st",
+        "release_year": "2015",
+        "runtime": "10:40",
+        "source": "/assets/audio/songs/outer_east.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/outer_east.jpg"
+    },
+    {
+        "songid": "song_20",
+        "title": "fire me",
+        "artist": "the planes",
+        "album": "little yellow letters",
+        "release_year": "2013",
+        "runtime": "02:19",
+        "source": "/assets/audio/songs/fire_me.mp3",
+        "description": "no description available",
+        "cover": "/assets/images/covers/fire_me.jpg"
+    }
+]

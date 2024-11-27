@@ -1,0 +1,62 @@
+[
+    {
+        "id": "event_guest1",
+        "FirstName": "Franklin",
+        "LastName": "Benson",
+        "Email": "fbenson@muse.radio",
+        "Phone": "1234567890",
+        "DateOfBirth": "2004-03-01T00:00:00.000Z",
+        "Bio": "Expert in all things biology and chemistry",
+        "Avatar": "/assets/images/avatars/FranklinBenson.jpg"
+    },
+    {
+        "id": "event_guest2",
+        "FirstName": "Jane",
+        "LastName": "Lesley",
+        "Email": "jlesley@muse.radio",
+        "Phone": "0256983325",
+        "DateOfBirth": "2004-03-01T00:00:00.000Z",
+        "Bio": "Expert in all things politics and sociocultural development",
+        "Avatar": "/assets/images/avatars/JaneLesley.jpg"
+    },
+    {
+        "id": "event_guest3",
+        "FirstName": "Emily",
+        "LastName": "Davis",
+        "Email": "edavis@muse.radio",
+        "Phone": "5213379821",
+        "DateOfBirth": "1995-06-14T00:00:00.000Z",
+        "Bio": "Enthusiastic event guest and music lover with a deep interest in indie and alternative genres.",
+        "Avatar": "/assets/images/avatars/EmilyDavis.jpg"
+    },
+    {
+        "id": "event_guest4",
+        "FirstName": "Ryan",
+        "LastName": "Cole",
+        "Email": "rcole@muse.radio",
+        "Phone": "4172398475",
+        "DateOfBirth": "1993-08-25T00:00:00.000Z",
+        "Bio": "Avid event attendee with a background in music journalism and a passion for discovering new talent.",
+        "Avatar": "/assets/images/avatars/RyanCole.jpg"
+    },
+    {
+        "id": "event_guest5",
+        "FirstName": "Sophia",
+        "LastName": "Nguyen",
+        "Email": "snguyen@muse.radio",
+        "Phone": "3987456210",
+        "DateOfBirth": "1997-02-11T00:00:00.000Z",
+        "Bio": "Frequent event guest and social media influencer focused on music and pop culture.",
+        "Avatar": "/assets/images/avatars/SophiaNguyen.jpg"
+    },
+    {
+        "id": "event_guest6",
+        "FirstName": "Jennifer",
+        "LastName": "Summers",
+        "Email": "djmolly@muse.radio",
+        "Phone": "555-555-5555",
+        "DateOfBirth": "2000-01-01T00:00:00.000Z",
+        "Bio": "I'm a dj trying to make it to music school",
+        "Avatar": "/assets/images/avatars/MollyRocks.jpg"
+    }
+]

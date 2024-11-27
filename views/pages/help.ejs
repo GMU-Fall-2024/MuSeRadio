@@ -1,0 +1,90 @@
+<datalist id="suggested_topics">
+    <option value="Scheduling conflicts">Scheduling conflicts</option>
+    <option value="Live stream not working">Live stream not working</option>
+    <option value="Page not loading">Page not loading</option>
+    <option value="Messages not sending">Messages not sending</option>
+    <option value="Other">Other</option>
+</datalist>
+
+<main>
+    <div id="help_container">
+		<span class="header">
+			<h1>Help</h1>
+			<hr>
+			<p>Technical issues? Send us a message with as much detail as possible</p>
+		</span>
+		<form action="" method="post">
+			<fieldset>
+				<!-- basic info -->
+				 <span class="input_group" id = "name_group">
+					<input type="text" name="name" id="name" placeholder="name" required>
+					<label for="name">name</label>
+				 </span>
+				 <span class="input_group">
+					<input type="email" name="email" id="email" placeholder="email" required>
+					<label for="email">email</label>
+				 </span>
+				 <span class="input_group">
+					<input type="text" name="phone" id="phone" placeholder="phone" required>
+					<label for="phone">phone</label>
+				 </span>
+			</fieldset>
+
+			<fieldset style="justify-content: center; display: flex; align-items: center;">
+				<!-- subject info -->
+				 <span class="input_group">
+					<input type="text" name="subject" id="subject" placeholder="subject" list="suggested_topics">
+					<label for="subject">subject</label>
+				 </span>
+             <span style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px;">
+               <strong style="text-align: center;">issue urgency</strong>
+               <p>select one so we determine how quickly to address your issue</p>
+             </span>
+             
+             <span class="input_group" style="display: flex; flex-direction: row; gap: 15px;">
+               <span class="radio_label">
+                  <input type="radio" name="low" id="low_priority">
+                  <label for="low_priority">low</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="medium" id="medium_prority">
+                  <label for="medium_prority">medium</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="high" id="high_priority">
+                  <label for="high_priority">high</label>
+               </span>
+               <span class="radio_label">
+                  <input type="radio" name="critical" id="critical_priority">
+                  <label for="critical_priority">critical</label>
+               </span>
+             </span>
+				 <!-- <span class="input_group">
+					<input type="date" name="date" id="date">
+					<label for="date">date</label>
+				 </span> -->
+			</fieldset>
+
+			<fieldset id = "message_fieldset">
+				<!-- message info -->
+				 <span class="input_group">
+					<textarea name="message" id="message" placeholder="message"></textarea>
+					<label for="message">message</label>
+				 </span>
+
+				 <span class="input_group">
+					 <input type="file" name="file" id="help_attachment">
+					 <span class="preview">
+						 <img src="./assets/images/placeholders/image_placeholder.webp" alt="">
+					 </span>
+					<label for="help_attachment">attachment</label>
+				 </span>
+			</fieldset>
+
+			<fieldset id = "controls">
+				<button type="submit" onclick="requestHelp();">send</button>
+				<button type="reset">clear</button>
+			</fieldset>
+		</form>
+	 </div>
+</main>

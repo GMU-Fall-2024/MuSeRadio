@@ -1,0 +1,96 @@
+
+<main>
+    <div id="profile_form">
+        <section id="profile_photo">
+            <span>
+                <img src="<%= dj.Avatar %>" alt="">
+            </span>
+        </section>
+        <section id="header">
+            <span class="title">Profile Management</span>
+            <span class="caption">View and modify profile information here</span>
+        </section>
+        <section id="form">
+            <form enctype="multipart/form-data" id="profile_form_entry">
+                <fieldset>
+                    <span class="input_group" id = "name_group">
+                        <span>
+                            <input type="text" name="FirstName" id="FirstName" placeholder="first name" value="<%= dj.FirstName %>" required>
+                            <label for="FirstName">First Name</label>
+                        </span>
+                        
+                        <span>
+                            <input type="text" name="StageName" id="StageName" placeholder="stage name" value="<%= dj.StageName %>" required>
+                            <label for="StageName">Stage Name</label>
+                        </span>
+
+                        <span>
+                            <input type="text" name="LastName" placeholder="last name" value="<%= dj.LastName %>" id = "LastName">
+                            <label for="LastName">Last Name</label>
+                        </span>
+                </fieldset>
+
+                <fieldset>
+                    <span class="input_group">
+                        <span>
+                            <input type="email" name="Email" id="Email" placeholder="email" value="<%= dj.Email %>" required>
+                            <label for="Email">Email</label>
+                        </span>
+
+                        <span>
+                            <input type="text" name="Phone" id="Phone" placeholder="phone" value="<%= dj.Phone %>" required>
+                            <label for="Phone">Phone</label>
+                        </span>
+
+                        <span>
+                            <input type="text" name="userid" id="UserName" placeholder="date of birth" value="<%= dj.userid %>" required>
+                            <label for="UserName">User Name</label>
+                        </span>
+                    </span>
+                </fieldset>
+
+                <fieldset>
+                    <span class="input_group" style="justify-content: center;">
+                        <span>
+                            <input type="date" name="DateOfBirth" id="DOB" value="<%= dj.DateOfBirth %>" required>
+                            <label for="DOB">Date Of Birth</label>
+                        </span>
+                    </span>
+                </fieldset>
+
+                <fieldset>
+                    <span class="input_group">
+                        <span>
+                            <textarea name="Bio" id="Bio" cols="970" rows="10"><%= dj.Bio %></textarea>
+                            <label for="Bio">Bio</label>
+                        </span>
+                    </span>
+                </fieldset>
+
+                <fieldset>
+                    <span class="input_group" style = "display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                        <span style="font-family: 'Quicksand', sans-serif; font-weight: 700; text-align: center;"> status </span>
+                        <span style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
+                            <span style="display: flex; justify-content: center;">
+                                <input type="radio" name="" id="online" value="online">
+                                <label for="online" style="text-align: center;">online</label>
+                            </span>
+                            <span style="display: flex; justify-content: center;">
+                                <input type="radio" name="" id="" value="suspended">
+                                <label for="suspended" style="text-align: center;">suspended</label>
+                            </span>
+                            <span style="display: flex; justify-content: center;">
+                                <input type="radio" name="" id="" value="offline">
+                                <label for="offline" style="text-align: center;">offline</label>
+                            </span>
+                </fieldset>
+
+                <fieldset id = "controls">
+                    <button onclick="updateProfile('<%= dj.userid %>')" style="background-color: darkgreen;"> <i class="fa-solid fa-floppy-disk"></i> update</button>
+                    <button type="reset" style="background-color: slategrey;"> <i class="fa-solid fa-xmark"></i> cancel</button>
+                    <button onclick = "deleteAccount('<%= dj.userid %>')" style="margin-left: 25%; background-color: red;"> <i class="fa-solid fa-trash"></i> delete account</button>
+                </fieldset>
+            </form> 
+        </section>
+    </div>
+</main>

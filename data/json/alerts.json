@@ -1,0 +1,62 @@
+[
+    {
+        "alertid": "alert_1",
+        "alert_recipient": "user_1",
+        "alert_type": "normal alert",
+        "alert_icon": "fa-solid fa-bell",
+        "alert_header": "new alert",
+        "alert_description": "You have unread alerts please check them out.",
+        "alert_status": "unread",
+        "alert_timestamp": "2024-01-01T05:00:00.000Z"
+    },
+    {
+        "alertid": "alert_2",
+        "alert_recipient": "user_2",
+        "alert_type": "comment update",
+        "alert_icon": "fa-solid fa-comments",
+        "alert_header": "new comment",
+        "alert_description": "Comment received on your show from last week from a listener.",
+        "alert_status": "unread",
+        "alert_timestamp": "2023-01-01T00:12:00.000Z"
+    },
+    {
+        "alertid": "alert_3",
+        "alert_recipient": "user_3",
+        "alert_type": "event update",
+        "alert_icon": "fa-solid fa-calendar-days",
+        "alert_header": "event scheduled",
+        "alert_description": "New event scheduled for 01/02/2024. At 10:00PM (EST).",
+        "alert_status": "unread",
+        "alert_timestamp": "2023-01-01T05:00:00.000Z"
+    },
+    {
+        "alertid": "alert_4",
+        "alert_recipient": "user_4",
+        "alert_type": "system alert",
+        "alert_icon": "fa-solid fa-users-gear",
+        "alert_header": "system updates",
+        "alert_description": "System updates scheduled for 01/01/2024. At 10:00PM (EST). Expect system wide glitches.",
+        "alert_status": "unread",
+        "alert_timestamp": "2023-01-01T07:12:00.000Z"
+    },
+    {
+        "alertid": "alert_5",
+        "alert_recipient": "user_5",
+        "alert_type": "warning alert",
+        "alert_icon": "fa-solid fa-triangle-exclamation",
+        "alert_header": "Profile Vulnerability",
+        "alert_description": "Your profile is at risk of being deleted. Please update your profile or change your password.",
+        "alert_status": "unread",
+        "alert_timestamp": "2023-01-01T10:14:00.000Z"
+    },
+    {
+        "alertid": "alert_6",
+        "alert_recipient": "user_1",
+        "alert_type": "event update",
+        "alert_icon": "fa-solid fa-calendar-days",
+        "alert_header": "event scheduled",
+        "alert_description": "New event scheduled for 03/02/2024. At 10:00PM (EST).",
+        "alert_status": "unread",
+        "alert_timestamp": "2023-05-01T09:00:00.000Z"
+    }
+]

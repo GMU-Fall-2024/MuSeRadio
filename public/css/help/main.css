@@ -1,0 +1,169 @@
+/* Main container styling */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Help container styling */
+div#help_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(249, 251, 252);
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Header styling */
+div#help_container .header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+div#help_container .header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+}
+
+div#help_container .header p {
+    font-size: 0.9rem;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: none;
+    padding: 0;
+}
+
+form .input_group {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: calc(50% - 10px);
+}
+
+form .input_group input,
+form .input_group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+form .input_group input:focus,
+form .input_group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form .input_group label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Textarea styling */
+textarea {
+    resize: none;
+    height: 100px;
+    width: 100%;
+}
+
+/* Radio buttons */
+form .radio_label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+form .radio_label input {
+    width: auto;
+}
+
+/* File upload styling */
+form .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+form .preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Controls styling */
+fieldset#controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+fieldset#controls button {
+    width: calc(50% - 10px);
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+fieldset#controls button[type="reset"] {
+    background-color: #dc3545;
+}
+
+fieldset#controls button:hover {
+    background-color: #0056b3;
+}
+
+fieldset#controls button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+fieldset#controls button:active {
+    transform: scale(0.98);
+}
+
+fieldset#controls button[type="reset"]:active {
+    transform: scale(0.98);
+}

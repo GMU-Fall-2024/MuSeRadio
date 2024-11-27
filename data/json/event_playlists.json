@@ -1,0 +1,72 @@
+[
+    {
+      "playlist_id": "playlist_1",
+      "description": "Lo-Fi Chill for Late Nights",
+      "creator": "Sarah Taylor",
+      "songs": ["song_19", "song_20", "song_1", "song_5", "song_9", "song_7", "song_16"],
+      "title": "Late Night Lo-Fi"
+    },
+    {
+      "playlist_id": "playlist_2",
+      "description": "A mix of soulful tracks to relax and unwind.",
+      "creator": "Michael Brooks",
+      "songs": ["song_11", "song_12", "song_9", "song_14", "song_1", "song_3", "song_17", "song_7", "song_13", "song_5"],
+      "title": "Soulful Vibes"
+    },
+    {
+      "playlist_id": "playlist_3",
+      "description": "Uplifting beats to energize your day.",
+      "creator": "Tim Jones",
+      "songs": ["song_17", "song_2", "song_19", "song_6", "song_1", "song_20", "song_14", "song_4"],
+      "title": "Morning Boost"
+    },
+    {
+      "playlist_id": "playlist_4",
+      "description": "A journey through deep house and electronic sounds.",
+      "creator": "Sarah Taylor",
+      "songs": ["song_20", "song_16", "song_10", "song_9", "song_11", "song_14", "song_13"],
+      "title": "Deep House Essentials"
+    },
+    {
+      "playlist_id": "playlist_5",
+      "description": "Perfect tracks for a late-night drive.",
+      "creator": "Michael Brooks",
+      "songs": ["song_12", "song_18", "song_3", "song_13", "song_6", "song_4", "song_19", "song_1", "song_15", "song_2"],
+      "title": "Midnight Drive"
+    },
+    {
+      "playlist_id": "playlist_6",
+      "description": "A curated selection of indie hits to discover.",
+      "creator": "Tim Jones",
+      "songs": ["song_6", "song_1", "song_2", "song_14", "song_9", "song_11", "song_20", "song_12"],
+      "title": "Indie Discoveries"
+    },
+    {
+      "playlist_id": "playlist_7",
+      "description": "Feel-good tracks for a summer afternoon.",
+      "creator": "Sarah Taylor",
+      "songs": ["song_5", "song_4", "song_20", "song_15", "song_17", "song_2", "song_16"],
+      "title": "Summer Chill"
+    },
+    {
+      "playlist_id": "playlist_8",
+      "description": "An eclectic mix of jazz-infused beats.",
+      "creator": "Michael Brooks",
+      "songs": ["song_16", "song_19", "song_12", "song_17", "song_5", "song_9", "song_18", "song_14"],
+      "title": "Jazz & Beats"
+    },
+    {
+      "playlist_id": "playlist_9",
+      "description": "A selection of classic rock anthems.",
+      "creator": "Tim Jones",
+      "songs": ["song_2", "song_5", "song_4", "song_20", "song_19", "song_3", "song_11", "song_13"],
+      "title": "Rock Classics"
+    },
+    {
+      "playlist_id": "playlist_10",
+      "description": "Relaxing acoustic tracks for a cozy evening.",
+      "creator": "Sarah Taylor",
+      "songs": ["song_4", "song_7", "song_15", "song_18", "song_16", "song_12", "song_11"],
+      "title": "Acoustic Evening"
+    }
+  ]

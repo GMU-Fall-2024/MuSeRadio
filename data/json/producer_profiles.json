@@ -1,0 +1,32 @@
+[
+    {
+        "id": "producer_1",
+        "FirstName": "Tim",
+        "LastName": "Jones",
+        "Email": "tjones@muse.radio",
+        "Phone": "5218963327",
+        "DateOfBirth": "1987-03-05T00:00:00.000Z",
+        "Bio": "Homegrown producer with nearly 15 years of practice in the music industry",
+        "Avatar": "/assets/images/avatars/Tim.jpg"
+    },
+    {
+        "id": "producer_2",
+        "FirstName": "Sarah",
+        "LastName": "Taylor",
+        "Email": "staylor@muse.radio",
+        "Phone": "5409876543",
+        "DateOfBirth": "1990-05-22T00:00:00.000Z",
+        "Bio": "Creative music producer known for innovative beats and a knack for artist development in the hip-hop scene.",
+        "Avatar": "/assets/images/avatars/SarahTaylor.jpg"
+    },
+    {
+        "id": "producer_3",
+        "FirstName": "Michael",
+        "LastName": "Brooks",
+        "Email": "mbrooks@muse.radio",
+        "Phone": "4123459876",
+        "DateOfBirth": "1983-12-15T00:00:00.000Z",
+        "Bio": "Veteran producer with expertise in electronic and ambient music, bringing over 20 years of experience.",
+        "Avatar": "/assets/images/avatars/Michael.jpg"
+    }
+]

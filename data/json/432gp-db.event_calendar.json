@@ -1,0 +1,696 @@
+[{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587b5"
+  },
+  "eventid": "event_1",
+  "event_name": "Early Bird Catchup",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Mon",
+  "event_date": "2024-01-01T00:00:00.000Z",
+  "event_start_time": "10:00 AM",
+  "event_duration": "01:00",
+  "event_end_time": "11:00 AM",
+  "event_guests": [
+    "Franklin Benson",
+    "Jane Lesley"
+  ],
+  "event_description": "Cruise into the start of your day with nothing but good music and a word from the most knowledgeable professionals in town!",
+  "event_location": "Channel 6 Studios",
+  "event_playlist": "playlist_1"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587b6"
+  },
+  "eventid": "event_2",
+  "event_name": "New Year Networking",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Wed",
+  "event_date": "2024-01-03T00:00:00.000Z",
+  "event_start_time": "9:00 AM",
+  "event_duration": "02:00",
+  "event_end_time": "11:00 AM",
+  "event_guests": [
+    "Emily Davis",
+    "Ryan Cole"
+  ],
+  "event_description": "Kickstart the new year by networking with industry professionals and sharing creative goals for 2024.",
+  "event_location": "Downtown Conference Center",
+  "event_playlist": "playlist_2"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587b7"
+  },
+  "eventid": "event_3",
+  "event_name": "Winter Sound Workshop",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-01-12T00:00:00.000Z",
+  "event_start_time": "2:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "5:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jennifer Summers"
+  ],
+  "event_description": "Dive into an interactive workshop on crafting unique soundscapes and mixing techniques with industry veterans.",
+  "event_location": "Studio 54",
+  "event_playlist": "playlist_3"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587b8"
+  },
+  "eventid": "event_4",
+  "event_name": "Artist Spotlight",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sat",
+  "event_date": "2024-01-20T00:00:00.000Z",
+  "event_start_time": "6:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "8:00 PM",
+  "event_guests": [
+    "Franklin Benson",
+    "Jane Lesley",
+    "Ryan Cole"
+  ],
+  "event_description": "An evening dedicated to celebrating emerging artists and introducing fresh talent to the community.",
+  "event_location": "ArtHouse Theater",
+  "event_playlist": "playlist_4"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587b9"
+  },
+  "eventid": "event_5",
+  "event_name": "January Jam Session",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-01-28T00:00:00.000Z",
+  "event_start_time": "4:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "6:30 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Join our January jam session, where artists and producers collaborate in a laid-back setting.",
+  "event_location": "Harmony Studios",
+  "event_playlist": "playlist_5"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587ba"
+  },
+  "eventid": "event_6",
+  "event_name": "Music Business Breakfast",
+  "event_producer": "Rebecca Stone",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Thu",
+  "event_date": "2024-02-01T00:00:00.000Z",
+  "event_start_time": "8:00 AM",
+  "event_duration": "01:30",
+  "event_end_time": "9:30 AM",
+  "event_guests": [
+    "Jennifer Summers",
+    "Ryan Cole"
+  ],
+  "event_description": "Start your February with insights from industry managers over breakfast and networking.",
+  "event_location": "Bluebird Café",
+  "event_playlist": "playlist_6"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587bb"
+  },
+  "eventid": "event_7",
+  "event_name": "Producer’s Roundtable",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Tue",
+  "event_date": "2024-02-06T00:00:00.000Z",
+  "event_start_time": "3:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "5:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Emily Davis"
+  ],
+  "event_description": "An open forum for producers to discuss industry trends, challenges, and innovations.",
+  "event_location": "The Sound Lounge",
+  "event_playlist": "playlist_7"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587bc"
+  },
+  "eventid": "event_8",
+  "event_name": "Indie Artists Showcase",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-02-16T00:00:00.000Z",
+  "event_start_time": "7:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "10:00 PM",
+  "event_guests": [
+    "Franklin Benson",
+    "Jane Lesley"
+  ],
+  "event_description": "A vibrant night celebrating independent artists, featuring live performances and artist panels.",
+  "event_location": "Local Stage Theater",
+  "event_playlist": "playlist_8"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587bd"
+  },
+  "eventid": "event_9",
+  "event_name": "Mid-February Mixer",
+  "event_producer": "James Evans",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Wed",
+  "event_date": "2024-02-21T00:00:00.000Z",
+  "event_start_time": "6:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "8:00 PM",
+  "event_guests": [
+    "Ryan Cole",
+    "Emily Davis"
+  ],
+  "event_description": "An evening of casual networking for industry professionals and newcomers alike.",
+  "event_location": "Downtown Social Club",
+  "event_playlist": "playlist_9"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587be"
+  },
+  "eventid": "event_10",
+  "event_name": "Soulful Sunday",
+  "event_producer": "Tim Jones",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-02-25T00:00:00.000Z",
+  "event_start_time": "4:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "7:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jennifer Summers"
+  ],
+  "event_description": "Wind down the month with soulful performances, chill vibes, and great company.",
+  "event_location": "Harmony Studios",
+  "event_playlist": "playlist_10"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587bf"
+  },
+  "eventid": "event_11",
+  "event_name": "Spring Sound Kickoff",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Sarah Taylor",
+  "day_of_week": "Sat",
+  "event_date": "2024-03-02T00:00:00.000Z",
+  "event_start_time": "5:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "8:00 PM",
+  "event_guests": [
+    "Franklin Benson",
+    "Emily Davis"
+  ],
+  "event_description": "Celebrate the beginning of spring with live music and networking among creatives and fans alike.",
+  "event_location": "Open Air Amphitheater",
+  "event_playlist": "playlist_1"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c0"
+  },
+  "eventid": "event_12",
+  "event_name": "Producer Insight Workshop",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Tim Jones",
+  "day_of_week": "Tue",
+  "event_date": "2024-03-05T00:00:00.000Z",
+  "event_start_time": "10:00 AM",
+  "event_duration": "02:00",
+  "event_end_time": "12:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Ryan Cole"
+  ],
+  "event_description": "An in-depth workshop for producers, focusing on the latest tools and techniques in music production.",
+  "event_location": "SoundLab Studios",
+  "event_playlist": "playlist_2"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c1"
+  },
+  "eventid": "event_13",
+  "event_name": "Artist Spotlight: Emerging Voices",
+  "event_producer": "Lily Martinez",
+  "event_dj": "James Evans",
+  "day_of_week": "Fri",
+  "event_date": "2024-03-15T00:00:00.000Z",
+  "event_start_time": "6:30 PM",
+  "event_duration": "02:30",
+  "event_end_time": "9:00 PM",
+  "event_guests": [
+    "Jane Lesley",
+    "Franklin Benson"
+  ],
+  "event_description": "An evening dedicated to showcasing new voices in the indie and pop scenes.",
+  "event_location": "Downtown Performance Hall",
+  "event_playlist": "playlist_3"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c2"
+  },
+  "eventid": "event_14",
+  "event_name": "March Madness Mixer",
+  "event_producer": "Rebecca Stone",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Mon",
+  "event_date": "2024-03-18T00:00:00.000Z",
+  "event_start_time": "5:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "7:00 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Join a lively mixer to connect with other music industry professionals over drinks and bites.",
+  "event_location": "City Loft Bar",
+  "event_playlist": "playlist_4"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c3"
+  },
+  "eventid": "event_15",
+  "event_name": "Women in Music Panel",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Sarah Taylor",
+  "day_of_week": "Wed",
+  "event_date": "2024-03-27T00:00:00.000Z",
+  "event_start_time": "3:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "5:30 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Emily Davis",
+    "Ryan Cole"
+  ],
+  "event_description": "A panel discussion celebrating women’s contributions to music, followed by a Q&A session.",
+  "event_location": "Harmony Studios",
+  "event_playlist": "playlist_5"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c4"
+  },
+  "eventid": "event_16",
+  "event_name": "Studio Showcase",
+  "event_producer": "Tim Jones",
+  "event_dj": "Michael Brooks",
+  "day_of_week": "Fri",
+  "event_date": "2024-03-29T00:00:00.000Z",
+  "event_start_time": "2:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "5:00 PM",
+  "event_guests": [
+    "Franklin Benson",
+    "Jane Lesley"
+  ],
+  "event_description": "A showcase of new projects and behind-the-scenes insights from top producers and artists.",
+  "event_location": "Channel 6 Studios",
+  "event_playlist": "playlist_6"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c5"
+  },
+  "eventid": "event_17",
+  "event_name": "April Fools' Music Fest",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Mon",
+  "event_date": "2024-04-01T00:00:00.000Z",
+  "event_start_time": "5:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "8:00 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Celebrate April Fools' Day with a fun-filled music festival featuring surprise performances and guest DJs.",
+  "event_location": "Green Park Amphitheater",
+  "event_playlist": "playlist_7"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c6"
+  },
+  "eventid": "event_18",
+  "event_name": "Spring Beats Workshop",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Thu",
+  "event_date": "2024-04-04T00:00:00.000Z",
+  "event_start_time": "10:00 AM",
+  "event_duration": "02:00",
+  "event_end_time": "12:00 PM",
+  "event_guests": [
+    "Ryan Cole",
+    "Franklin Benson"
+  ],
+  "event_description": "A hands-on workshop focused on creating fresh beats for the spring season, perfect for budding producers.",
+  "event_location": "Studio One Labs",
+  "event_playlist": "playlist_8"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c7"
+  },
+  "eventid": "event_19",
+  "event_name": "Jazz Night Live",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sat",
+  "event_date": "2024-04-13T00:00:00.000Z",
+  "event_start_time": "7:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "10:00 PM",
+  "event_guests": [
+    "Jane Lesley",
+    "Ryan Cole"
+  ],
+  "event_description": "An evening of smooth jazz performances by local artists and special guests.",
+  "event_location": "Downtown Jazz Club",
+  "event_playlist": "playlist_9"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c8"
+  },
+  "eventid": "event_20",
+  "event_name": "Women in Music Networking",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Tue",
+  "event_date": "2024-04-16T00:00:00.000Z",
+  "event_start_time": "4:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "6:30 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Emily Davis",
+    "Jane Lesley"
+  ],
+  "event_description": "A networking event celebrating women in the music industry, featuring panel discussions and guest speakers.",
+  "event_location": "City Hall Auditorium",
+  "event_playlist": "playlist_10"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587c9"
+  },
+  "eventid": "event_21",
+  "event_name": "Electronic Groove Session",
+  "event_producer": "Tim Jones",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-04-19T00:00:00.000Z",
+  "event_start_time": "8:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "10:30 PM",
+  "event_guests": [
+    "Franklin Benson",
+    "Ryan Cole"
+  ],
+  "event_description": "A night dedicated to electronic music, with live sets from top producers and DJs.",
+  "event_location": "The Warehouse",
+  "event_playlist": "playlist_1"
+},
+{
+  "_id": {
+    "$oid": "67440664faa70afe7ae587ca"
+  },
+  "eventid": "event_22",
+  "event_name": "April Acoustic Evening",
+  "event_producer": "Lily Martinez",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-04-28T00:00:00.000Z",
+  "event_start_time": "6:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "8:00 PM",
+  "event_guests": [
+    "Jennifer Summers",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Relax and unwind with an evening of acoustic performances in a cozy, intimate setting.",
+  "event_location": "Harmony Studios",
+  "event_playlist": "playlist_2"
+},
+{
+  "_id": {
+    "$oid": "674413cefaa70afe7ae587de"
+  },
+  "eventid": "event_39",
+  "event_name": "Tech Fusion Workshop",
+  "event_producer": "Tim Jones",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-11-24T00:00:00.000Z",
+  "event_start_time": "10:00 AM",
+  "event_duration": "03:00",
+  "event_end_time": "1:00 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Explore the fusion of technology and music production in this interactive workshop led by industry experts.",
+  "event_location": "TechSound Studios",
+  "event_playlist": "playlist_3"
+},
+{
+  "_id": {
+    "$oid": "674413cefaa70afe7ae587df"
+  },
+  "eventid": "event_40",
+  "event_name": "Acoustic Night Live",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sat",
+  "event_date": "2024-11-25T00:00:00.000Z",
+  "event_start_time": "7:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "9:30 PM",
+  "event_guests": [
+    "Ryan Cole",
+    "Franklin Benson"
+  ],
+  "event_description": "Join us for a relaxing acoustic night featuring live performances by talented artists in a cozy atmosphere.",
+  "event_location": "The Music Lounge",
+  "event_playlist": "playlist_5"
+},
+{
+  "_id": {
+    "$oid": "674413cefaa70afe7ae587e0"
+  },
+  "eventid": "event_41",
+  "event_name": "Winter Beats Festival",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-11-26T00:00:00.000Z",
+  "event_start_time": "5:00 PM",
+  "event_duration": "04:00",
+  "event_end_time": "9:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jane Lesley"
+  ],
+  "event_description": "Experience the energy of winter with beats that will warm your soul, featuring live sets from top DJs.",
+  "event_location": "Winter Hall Arena",
+  "event_playlist": "playlist_7"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e2"
+  },
+  "eventid": "event_42",
+  "event_name": "Morning Coffee Beats",
+  "event_producer": "Rebecca Stone",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Thu",
+  "event_date": "2024-11-23T00:00:00.000Z",
+  "event_start_time": "9:00 AM",
+  "event_duration": "01:30",
+  "event_end_time": "10:30 AM",
+  "event_guests": [
+    "Emily Davis",
+    "Ryan Cole"
+  ],
+  "event_description": "Start your day with a relaxing cup of coffee and mellow beats.",
+  "event_location": "City Café",
+  "event_playlist": "playlist_1"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e3"
+  },
+  "eventid": "event_43",
+  "event_name": "Evening Chill Session",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Thu",
+  "event_date": "2024-11-23T00:00:00.000Z",
+  "event_start_time": "7:00 PM",
+  "event_duration": "02:00",
+  "event_end_time": "9:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jane Lesley"
+  ],
+  "event_description": "Unwind in the evening with soothing beats and great company.",
+  "event_location": "The Music Lounge",
+  "event_playlist": "playlist_2"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e4"
+  },
+  "eventid": "event_44",
+  "event_name": "Tech Fusion Workshop",
+  "event_producer": "Tim Jones",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-11-24T00:00:00.000Z",
+  "event_start_time": "10:00 AM",
+  "event_duration": "03:00",
+  "event_end_time": "1:00 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Sophia Nguyen"
+  ],
+  "event_description": "Explore the fusion of technology and music production in this interactive workshop led by industry experts.",
+  "event_location": "TechSound Studios",
+  "event_playlist": "playlist_3"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e5"
+  },
+  "eventid": "event_45",
+  "event_name": "Friday Night Groove",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Fri",
+  "event_date": "2024-11-24T00:00:00.000Z",
+  "event_start_time": "8:00 PM",
+  "event_duration": "03:00",
+  "event_end_time": "11:00 PM",
+  "event_guests": [
+    "Ryan Cole",
+    "Franklin Benson"
+  ],
+  "event_description": "Groove into the weekend with upbeat music and dance.",
+  "event_location": "The Clubhouse",
+  "event_playlist": "playlist_4"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e6"
+  },
+  "eventid": "event_46",
+  "event_name": "Acoustic Night Live",
+  "event_producer": "Sarah Taylor",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sat",
+  "event_date": "2024-11-25T00:00:00.000Z",
+  "event_start_time": "7:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "9:30 PM",
+  "event_guests": [
+    "Ryan Cole",
+    "Franklin Benson"
+  ],
+  "event_description": "Join us for a relaxing acoustic night featuring live performances by talented artists in a cozy atmosphere.",
+  "event_location": "The Music Lounge",
+  "event_playlist": "playlist_5"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e7"
+  },
+  "eventid": "event_47",
+  "event_name": "Saturday Beats & Brunch",
+  "event_producer": "Melody Blinks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sat",
+  "event_date": "2024-11-25T00:00:00.000Z",
+  "event_start_time": "11:00 AM",
+  "event_duration": "02:00",
+  "event_end_time": "1:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jane Lesley"
+  ],
+  "event_description": "Enjoy a laid-back Saturday brunch with curated beats from top DJs.",
+  "event_location": "Open Air Café",
+  "event_playlist": "playlist_6"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e8"
+  },
+  "eventid": "event_48",
+  "event_name": "Winter Beats Festival",
+  "event_producer": "Michael Brooks",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-11-26T00:00:00.000Z",
+  "event_start_time": "5:00 PM",
+  "event_duration": "04:00",
+  "event_end_time": "9:00 PM",
+  "event_guests": [
+    "Sophia Nguyen",
+    "Jane Lesley"
+  ],
+  "event_description": "Experience the energy of winter with beats that will warm your soul, featuring live sets from top DJs.",
+  "event_location": "Winter Hall Arena",
+  "event_playlist": "playlist_7"
+},
+{
+  "_id": {
+    "$oid": "6744b43cfaa70afe7ae587e9"
+  },
+  "eventid": "event_49",
+  "event_name": "Sunday Chill Out",
+  "event_producer": "Rebecca Stone",
+  "event_dj": "Jennifer Summers",
+  "day_of_week": "Sun",
+  "event_date": "2024-11-26T00:00:00.000Z",
+  "event_start_time": "2:00 PM",
+  "event_duration": "02:30",
+  "event_end_time": "4:30 PM",
+  "event_guests": [
+    "Emily Davis",
+    "Ryan Cole"
+  ],
+  "event_description": "A relaxing afternoon filled with chill beats and casual networking.",
+  "event_location": "Harmony Studios",
+  "event_playlist": "playlist_8"
+}]
